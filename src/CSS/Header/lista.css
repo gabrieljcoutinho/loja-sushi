@@ -1,0 +1,30 @@
+.navigation {
+  position: relative; /* Importante para posicionar o fundo animado */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para alinhar os itens horizontalmente */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+
+  .navigation li {
+    margin: 0;
+  }

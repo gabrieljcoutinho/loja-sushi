@@ -1,0 +1,46 @@
+  .cardapio-container {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 520px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0; /* Borda cinza clara */
+  }
+
+  .cardapio-titulo {
+    text-align: center;
+    color: #424242; /* Cinza escuro */
+    font-size: 2.1em;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+
+  .lista-itens {
+    /* Layout vertical padrão */
+  }
+
+  .item-cardapio {
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item-cardapio:last-child {
+    border-bottom: none;
+  }
+
+  .nome-item {
+    font-weight: 400;
+    color: #616161; /* Cinza médio */
+    font-size: 1.05em;
+  }
+
+  .valor-item {
+    color: #007bff; /* Azul clássico */
+    font-weight: bold;
+    font-size: 1.2em;
+  }

@@ -1,0 +1,36 @@
+
+  /* Header */
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+  }
+
+  .logo img {
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+  }
+
+  .main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .main-nav li {
+    margin-left: 25px;
+  }
+
+  .main-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .main-nav a:hover {
+    color: #e44d26;
+  }

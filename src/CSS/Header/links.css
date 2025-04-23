@@ -1,0 +1,55 @@
+.navigation {
+  position: relative; /* Importante para posicionar o fundo animado */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para alinhar os itens horizontalmente */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.navigation a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 8px 12px;
+  position: relative; /* Para garantir que o texto fique acima do fundo */
+  z-index: 1; /* Garante que o texto não seja coberto pelo fundo */
+  border-radius: 5px; /* Opcional: para deixar as bordas do fundo */
+}
+
+.navigation a:hover {
+  color: #eee;
+  background-color: rgba(255, 255, 255, 0.1); /* Opcional: um feedback visual ao passar o mouse */
+}
+
+.navigation a.active {
+  color: #252525; /* Cor do texto quando ativo */
+  /* background-color: #fff; Vamos controlar isso pelo active-background */
+  font-weight: bold; /* Opcional: manter o texto em negrito */
+}
+
+.active-background {
+  position: absolute;
+  top: 0; /* Alinha ao topo da ul */
+  left: 0;
+  height: auto; /* A altura será definida pelo link ativo */
+  background-color: #fff; /* Cor de fundo desejada para o link ativo */
+  border-radius: 5px;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 0; /* Coloca o fundo atrás do texto */
+}

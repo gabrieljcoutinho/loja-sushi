@@ -1,0 +1,80 @@
+
+  /* Experience Section */
+  .experience-section {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .experience-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+
+  .experience-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .experience-image {
+    flex: 1;
+  }
+
+  .experience-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Promotions Section */
+  .promotions-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+
+  .promotion-list {
+    margin-top: 30px;
+  }
+
+  .promotion-item {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .promotion-item h3 {
+    color: #e44d26;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .promotion-item p {
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Reviews Section */
+  .reviews-section {
+    padding: 60px 0;
+  }
+
+  .review-carousel {
+    margin-top: 30px;
+    /* Aqui você pode adicionar estilos para um carrossel de avaliações se desejar */
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Para habilitar a rolagem horizontal se houver muitas avaliações */
+    padding-bottom: 20px; /* Espaço para a barra de rolagem */
+  }
+
+  .review-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    min-width: 300px; /* Largura mínima para cada avaliação */
+  }

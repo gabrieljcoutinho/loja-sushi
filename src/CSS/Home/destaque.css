@@ -1,0 +1,53 @@
+/* Featured Section (Destaques) */
+.featured-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .featured-item {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+
+  .featured-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .featured-item h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .featured-item p {
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .featured-item .price {
+    font-weight: bold;
+    color: #e44d26;
+    font-size: 1.1em;
+  }
+
+  .featured-section .button {
+    display: block;
+    margin: 30px auto 0;
+    max-width: 200px;
+    text-align: center;
+  }

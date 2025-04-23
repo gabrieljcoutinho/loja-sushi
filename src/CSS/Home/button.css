@@ -1,0 +1,29 @@
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+
+
+  .button.secondary {
+    background-color: #333;
+  }
+
+  .button.large {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+
+  .button:hover {
+    opacity: 0.9;
+  }
