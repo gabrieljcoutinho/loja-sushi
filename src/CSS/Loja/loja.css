@@ -45,27 +45,3 @@ background-color: black;
 padding: 10px; /* Adicionei padding para melhor visual */
 font-size: 20px;
   }
-
-  .search-bar {
-display: flex;
-justify-content: center; /* Centraliza o input horizontalmente */
-padding: 2rem; /* Adiciona um espaçamento ao redor da barra de busca */
-background-color: #f8f8f8; /* Cor de fundo para a barra de busca */
-border-bottom: 1px solid #eee; /* Adiciona uma borda sutil na parte inferior */
-  }
-
-  .search-bar input[type="text"] {
-padding: 1rem;
-border: 1px solid #ccc;
-border-radius: 8px;
-font-size: 1rem;
-width: 80%; /* Ocupa uma boa parte da largura do container */
-max-width: 600px; /* Define uma largura máxima para não ficar muito grande em telas maiores */
-box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura total */
-  }
-
-  .search-bar input[type="text"]:focus {
-outline: none; /* Remove a borda de foco padrão do navegador */
-border-color: darkred; /* Altera a cor da borda ao receber foco */
-box-shadow: 0 0 5px rgba(139, 0, 0, 0.5); /* Adiciona uma sombra sutil ao receber foco */
-  }
