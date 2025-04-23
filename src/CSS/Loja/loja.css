@@ -86,37 +86,3 @@
 .btnModerno span {
   position: relative;
 }
-
-.barra-pesquisa {
-display: flex;
- justify-content: center;
- margin-bottom: 20px;
- padding: 10px;
- background-color: #f8f8f8;
- border-radius: 8px;
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .barra-pesquisa input[type="text"] {
- padding: 12px 20px;
- border: 1px solid #ccc;
- border-radius: 6px;
- font-size: 16px;
- width: 80%;
- max-width: 600px;
- outline: none;
- transition: border-color 0.3s ease;
-  }
-
-  .barra-pesquisa input[type="text"]:focus {
- border-color: #e4d00a;
- box-shadow: 0 0 8px rgba(228, 208, 10, 0.3);
-  }
-
-  .mensagem-sem-resultados {
- text-align: center;
- color: #777;
- font-style: italic;
- margin-top: 20px;
- font-size: 30px;
-  }
