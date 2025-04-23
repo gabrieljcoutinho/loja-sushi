@@ -1,5 +1,7 @@
 // routes/Loja.js
 import React from 'react';
+import { useState } from 'react';
+
 import '../CSS/Loja/loja.css';
 import salmao from '../img/pratos/salmao.jpg';
 import temakiSalmao from '../img/pratos/temakiSalmao.jpg';
@@ -17,7 +19,11 @@ import RolinhoPrimaveradeQueijo from '../img/pratos/RolinhoPrimaveradeQueijo.jpg
 import tempura from '../img/pratos/tempura.jpg';
 import lamen from '../img/pratos/lamen.jpg';
 import teppan from '../img/pratos/teppan.jpg';
-import { useState } from 'react';
+import combinadoChef from '../img/combinadoChef.jpg'
+import  ceviche from '../img/pratos/ceviche.jpg'
+import kare from '../img/pratos/kare.jpg'
+import robata from '../img/pratos/robata.jpg'
+
 
 const pratosJaponeses = [
   { nome: 'Sushi de Salmão', descricao: 'Fatias frescas de salmão sobre arroz japonês.', valor: 'R$ 15,00', porção: 'Porção com 10', imagem: salmao },
@@ -36,6 +42,10 @@ const pratosJaponeses = [
   { nome: 'Tempura', descricao: 'Tempura com frutos do mar.', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: tempura },
   { nome: 'Lámen', descricao: 'Tempura com frutos do mar.', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: lamen },
   { nome: 'Teppan', descricao: 'Carne com legumes', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: teppan },
+  { nome: 'Combinado do Chef', descricao: 'Um prato surpresa diário feito pelo chef', valor: 'R$ 79,00',  imagem: combinadoChef },
+  {nome: 'Ceviche', descricao: 'Salmão cru, cebola e cebola roxa picada ', valor: 'R$: 8,00', imagem: ceviche},
+  {nome: 'Karê', descricao: 'Carne, arroz e molho especial ', valor: 'R$: 20,00', imagem: kare},
+  {nome: 'Robata', descricao: 'Espetinh ode verduras e leumes ', valor: 'R$: 110,00', imagem: robata}
 ];
 
 // Função auxiliar para remover acentos e converter para minúsculas

@@ -19,6 +19,7 @@ const cardapioItens = [
   { nome: '14 - Tempura', valor: 14.00 },
   { nome: '15 - Lámen', valor: 14.00  },
   { nome: '16 - Teppan', valor: 14.00  },
+  {nome: '17 - Combinado do Chef', valor: 79.00}
 ];
 
 const ItemCardapio = ({ item }) => (
