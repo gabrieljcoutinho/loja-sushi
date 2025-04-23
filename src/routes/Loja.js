@@ -1,69 +1,89 @@
-// routes/Loja.js
-import React from 'react';
-import { useState } from 'react';
-
+import React, { useState } from 'react';
 import '../CSS/Loja/loja.css';
-import '../CSS/Loja/barraDePesquisa.css'
 
-import salmao from '../img/pratos/salmao.jpg';
-import temakiSalmao from '../img/pratos/temakiSalmao.jpg';
-import sashimiPeixeBranco from '../img/pratos/sashimiPeixeBranco.jpg';
-import niguiriCamarao from '../img/pratos/niguiriCamarao.jpg';
-import uramakiCalifornia from '../img/pratos/uramakiCalifórnia.jpg';
-import hotRoll from '../img/pratos/hotRoll.jpg';
-import yakisoba from '../img/pratos/yakisoba.jpg';
-import yakisobaFrutosDoMar from '../img/pratos/yakisobaFrutosDoMar.jpg';
-import gyozajpg from '../img/pratos/gyozajpg.jpg';
-import missoshiru from '../img/pratos/missoshiru.jpg';
-import sunomono from '../img/pratos/sunomono.jpg';
-import shimeji from '../img/pratos/shimeji.jpg';
-import RolinhoPrimaveradeQueijo from '../img/pratos/RolinhoPrimaveradeQueijo.jpg';
-import tempura from '../img/pratos/tempura.jpg';
-import lamen from '../img/pratos/lamen.jpg';
-import teppan from '../img/pratos/teppan.jpg';
-import combinadoChef from '../img/combinadoChef.jpg'
-import  ceviche from '../img/pratos/ceviche.jpg'
-import kare from '../img/pratos/kare.jpg'
-import robata from '../img/pratos/robata.jpg'
+// Importações das imagens
+import img1 from '../img/pratos/RolinhoPrimaveradeQueijo.jpg';
+import img2 from '../img/pratos/ceviche.jpg';
+import img3 from '../img/pratos/gyozajpg.jpg';
+import img4 from '../img/pratos/hotRoll.jpg';
+import img5 from '../img/pratos/kare.jpg';
+import img6 from '../img/pratos/lamen.jpg';
+import img7 from '../img/pratos/missoshiru.jpg';
+import img8 from '../img/pratos/niguiriCamarao.jpg';
+import img9 from '../img/pratos/salmao.jpg';
+import img10 from '../img/pratos/sashimiPeixeBranco.jpg';
+import img11 from '../img/pratos/shimeji.jpg';
+import img12 from '../img/pratos/sunomono.jpg';
+import img13 from '../img/pratos/temakiSalmao.jpg';
+import img14 from '../img/pratos/tempura.jpg';
+import img15 from '../img/pratos/yakisoba.jpg';
+import img16 from '../img/pratos/yakisobaFrutosDoMar.jpg';
 
-import combo1 from '../img/combos/combo1.jpg'
-import combo2 from '../img/combos/combo2.jpg'
-import combo3 from '../img/combos/combo3.jpg'
-import combo4 from '../img/combos/combo4.jpg'
+const pratosInfo = [
+  { nome: 'Rolinho Primavera de Queijo',
+    imagem: img1,
+    descricao: 'Rolinho Primavera de Queijo' },
 
+  { nome: 'Ceviche',
+    imagem: img2,
+    descricao: 'Ceviche' },
 
-const pratosJaponeses = [
-  { nome: 'Sushi de Salmão', descricao: 'Fatias frescas de salmão sobre arroz japonês.', valor: 'R$ 15,00', porção: 'Porção com 10', imagem: salmao },
-  { nome: 'Temaki de Salmão', descricao: 'Cone de alga marinha recheado com atum e arroz.', valor: 'R$ 30,00', porção: 'Porção com 3', imagem: temakiSalmao },
-  { nome: 'Sashimi de Peixe Branco', descricao: 'Finas fatias de peixe branco fresco.', valor: 'R$ 22,00', porção: 'Porção com 3', imagem: sashimiPeixeBranco },
-  { nome: 'Niguiri de Camarão', descricao: 'Camarão cozido sobre bolinho de arroz.', valor: 'R$ 12,00', porção: 'Porção com 3', imagem: niguiriCamarao },
-  { nome: 'Uramaki Califórnia', descricao: 'Enrolado de arroz com kani, abacate e pepino.', valor: 'R$ 25,00', porção: 'Porção com 20', imagem: uramakiCalifornia },
-  { nome: 'Hot Roll', descricao: 'Sushi enrolado empanado e frito.', valor: 'R$ 20,00', porção: 'Porção com 3', imagem: hotRoll },
-  { nome: 'Yakisoba de Carne', descricao: 'Macarrão oriental com carne e legumes.', valor: 'R$ 28,00', porção: 'Porção com 3', imagem: yakisoba },
-  { nome: 'Yakisoba Frutos do Mar', descricao: 'Macarrão oriental com frutos do mar.', valor: 'R$ 28,00', porção: 'Porção com 3', imagem: yakisobaFrutosDoMar },
-  { nome: 'Gyoza', descricao: 'Pastel japonês recheado com carne de porco.', valor: 'R$ 16,00', porção: 'Porção com 10', imagem: gyozajpg },
-  { nome: 'Missoshiru', descricao: 'Sopa de soja fermentada com tofu e alga.', valor: 'R$ 10,00', unidade: 'tigela', imagem: missoshiru },
-  { nome: 'Sunomono', descricao: 'Salada agridoce de pepino e kani.', valor: 'R$ 14,00', porção: 'Porção com 3', imagem: sunomono },
-  { nome: 'Shimeji', descricao: 'Cogumelos shimeji salteados na manteiga.', valor: 'R$ 18,00', porção: 'Porção com 1', imagem: shimeji },
-  { nome: 'Rolinho Primavera de Queijo', descricao: 'Rolinho Primavera de Queijo.', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: RolinhoPrimaveradeQueijo },
-  { nome: 'Tempura', descricao: 'Tempura com frutos do mar.', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: tempura },
-  { nome: 'Lámen', descricao: 'Tempura com frutos do mar.', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: lamen },
-  { nome: 'Teppan', descricao: 'Carne com legumes', valor: 'R$ 14,00', porção: 'Porção com 10', imagem: teppan },
-  { nome: 'Combinado do Chef', descricao: 'Um prato surpresa diário feito pelo chef', valor: 'R$ 79,00',  imagem: combinadoChef },
-  {nome: 'Ceviche', descricao: 'Salmão cru, cebola e cebola roxa picada ', valor: 'R$: 8,00', imagem: ceviche},
-  {nome: 'Karê', descricao: 'Carne, arroz e molho especial ', valor: 'R$: 20,00', imagem: kare},
-  {nome: 'Robata', descricao: 'Espetinh ode verduras e leumes ', valor: 'R$: 110,00', imagem: robata},
+  { nome: 'Guioza',
+     imagem: img3,
+     descricao: 'Guioza' },
 
-  {nome: 'Combo para uma pessoa', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo1},
-  {nome: 'Combo para duas pessoas', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo2},
-  {nome: 'Combo para três pessoas', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo3},
-  {nome: 'Combo para quatro pessoa', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo4},
+  { nome: 'Hot Roll',
+     imagem: img4,
+      descricao: 'Hot Roll' },
+
+  { nome: 'Kare',
+     imagem: img5,
+     descricao: 'Kare' },
+
+  { nome: 'Lamen',
+     imagem: img6,
+     descricao: 'Lamen' },
+
+  { nome: 'Missoshiru',
+     imagem: img7,
+     descricao: 'Missoshiru' },
+
+  { nome: 'Niguiri de Camarão',
+     imagem: img8,
+     descricao: 'Niguiri de Camarão' },
+
+  { nome: 'Salmão',
+    imagem: img9,
+    descricao: 'Salmão' },
+
+  { nome: 'Sashimi de Peixe Branco',
+    imagem: img10,
+    descricao: 'Sashimi de Peixe Branco' },
+
+  { nome: 'Shimeji',
+     imagem: img11,
+     descricao: 'Shimeji' },
+
+  { nome: 'Sunomono',
+    imagem: img12,
+     descricao: 'Sunomono' },
+
+  { nome: 'Temaki de Salmão',
+     imagem: img13,
+     descricao: 'Temaki de Salmão' },
+
+  { nome: 'Tempura',
+     imagem: img14,
+      descricao: 'Tempura' },
+
+  { nome: 'Yakisoba',
+    imagem: img15,
+    descricao: 'Yakisoba' },
+
+  { nome: 'Yakisoba de Frutos do Mar',
+     imagem: img16,
+     descricao: 'Yakisoba de Frutos do Mar' },
 ];
-
-// Função auxiliar para remover acentos e converter para minúsculas
-const removerAcentos = (texto) => {
-  return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-};
 
 const Loja = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -72,60 +92,30 @@ const Loja = () => {
     setSearchTerm(event.target.value);
   };
 
-  const filteredPratos = pratosJaponeses.filter(prato => {
-    const nomeNormalizado = removerAcentos(prato.nome);
-    const descricaoNormalizada = removerAcentos(prato.descricao);
-    const termoNormalizado = removerAcentos(searchTerm);
-
-    return nomeNormalizado.includes(termoNormalizado) || descricaoNormalizada.includes(termoNormalizado);
-  });
-
-  const chunkArray = (array, size) => {
-    const chunkedArr = [];
-    for (let i = 0; i < array.length; i += size) {
-      chunkedArr.push(array.slice(i, i + size));
-    }
-    return chunkedArr;
-  };
-
-  const pratosEmFileiras = chunkArray(filteredPratos, 4);
+  const pratosFiltrados = pratosInfo.filter((prato) =>
+    prato.nome.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
-    <div className="loja-container">
-      <div className="barra-busca">
+    <div className='loja-container'>
+      <div className='search-bar'>
         <input
           type="text"
           placeholder="Buscar prato..."
           value={searchTerm}
           onChange={handleSearch}
-          className="input-busca"
         />
       </div>
-      {pratosEmFileiras.map((fileira, indexFileira) => (
-        <div key={`fileira-${indexFileira}`} className="fileira-pratos">
-          {fileira.map((prato, indexPrato) => (
-            <div key={`prato-${indexPrato}`} className="card-prato">
-              <div className="imagem-prato">
-                <img src={prato.imagem} alt={prato.nome} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '6px 6px 0 0' }} />
-              </div>
-              <h3>{prato.nome}</h3>
-              <p>{prato.descricao}</p>
-              <p>Valor: {prato.valor}</p>
-              <p>{prato.porção || prato.unidade}</p>
-              <a href="#" className='btnModerno'><span>Comprar</span></a>
-            </div>
-          ))}
-          {fileira.length < 4 && Array(4 - fileira.length).fill(null).map((_, index) => (
-            <div key={`vazio-${index}`} className="coluna-vazia"></div>
-          ))}
-        </div>
-      ))}
-      {filteredPratos.length === 0 && searchTerm !== '' && (
-        <p className="mensagem-sem-resultados">Nenhum prato encontrado para "{searchTerm}".</p>
-      )}
+      <div className='flexbox'>
+        {pratosFiltrados.map((prato, index) => (
+          <div className='produto' key={index}>
+            <img src={prato.imagem} alt={prato.nome} />
+            {prato.descricao && <p className='descricao'>{prato.descricao}</p>}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
-// Certifique-se de ter esta linha para exportar o componente Loja como default
 export default Loja;
