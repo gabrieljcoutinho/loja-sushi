@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../CSS/Loja/loja.css';
-import '../CSS/Loja/barraDePesquisa.css'
+import '../CSS/Loja/barraDePesquisa.css';
 
 // Importações das imagens
 import img1 from '../img/pratos/RolinhoPrimaveradeQueijo.jpg';
@@ -21,69 +21,37 @@ import img15 from '../img/pratos/yakisoba.jpg';
 import img16 from '../img/pratos/yakisobaFrutosDoMar.jpg';
 
 const pratosInfo = [
-  { nome: 'Rolinho Primavera de Queijo',
-    imagem: img1,
-    descricao: 'Rolinho Primavera de Queijo' },
+  { nome: 'Rolinho Primavera de Queijo', imagem: img1, descricao: 'Rolinho Primavera de Queijo' },
 
-  { nome: 'Ceviche',
-    imagem: img2,
-    descricao: 'Ceviche' },
+  { nome: 'Ceviche', imagem: img2, descricao: 'Ceviche' },
 
-  { nome: 'Guioza',
-     imagem: img3,
-     descricao: 'Guioza' },
+  { nome: 'Guioza', imagem: img3, descricao: 'Guioza' },
 
-  { nome: 'Hot Roll',
-     imagem: img4,
-      descricao: 'Hot Roll' },
+  { nome: 'Hot Roll', imagem: img4, descricao: 'Hot Roll' },
 
-  { nome: 'Kare',
-     imagem: img5,
-     descricao: 'Kare' },
+  { nome: 'Kare', imagem: img5, descricao: 'Kare' },
 
-  { nome: 'Lamen',
-     imagem: img6,
-     descricao: 'Lamen' },
+  { nome: 'Lamen', imagem: img6, descricao: 'Lamen' },
 
-  { nome: 'Missoshiru',
-     imagem: img7,
-     descricao: 'Missoshiru' },
+  { nome: 'Missoshiru', imagem: img7, descricao: 'Missoshiru' },
 
-  { nome: 'Niguiri de Camarão',
-     imagem: img8,
-     descricao: 'Niguiri de Camarão' },
+  { nome: 'Niguiri de Camarão', imagem: img8, descricao: 'Niguiri de Camarão' },
 
-  { nome: 'Salmão',
-    imagem: img9,
-    descricao: 'Salmão' },
+  { nome: 'Salmão', imagem: img9, descricao: 'Salmão' },
 
-  { nome: 'Sashimi de Peixe Branco',
-    imagem: img10,
-    descricao: 'Sashimi de Peixe Branco' },
+  { nome: 'Sashimi de Peixe Branco', imagem: img10, descricao: 'Sashimi de Peixe Branco' },
 
-  { nome: 'Shimeji',
-     imagem: img11,
-     descricao: 'Shimeji' },
+  { nome: 'Shimeji', imagem: img11, descricao: 'Shimeji' },
 
-  { nome: 'Sunomono',
-    imagem: img12,
-     descricao: 'Sunomono' },
+  { nome: 'Sunomono', imagem: img12, descricao: 'Sunomono' },
 
-  { nome: 'Temaki de Salmão',
-     imagem: img13,
-     descricao: 'Temaki de Salmão' },
+  { nome: 'Temaki de Salmão', imagem: img13, descricao: 'Temaki de Salmão' },
 
-  { nome: 'Tempura',
-     imagem: img14,
-      descricao: 'Tempura' },
+  { nome: 'Tempura', imagem: img14, descricao: 'Tempura' },
 
-  { nome: 'Yakisoba',
-    imagem: img15,
-    descricao: 'Yakisoba' },
+  { nome: 'Yakisoba', imagem: img15, descricao: 'Yakisoba' },
 
-  { nome: 'Yakisoba de Frutos do Mar',
-     imagem: img16,
-     descricao: 'Yakisoba de Frutos do Mar' },
+  { nome: 'Yakisoba de Frutos do Mar', imagem: img16, descricao: 'Yakisoba de Frutos do Mar' },
 ];
 
 const Loja = () => {
@@ -112,6 +80,9 @@ const Loja = () => {
           <div className='produto' key={index}>
             <img src={prato.imagem} alt={prato.nome} />
             {prato.descricao && <p className='descricao'>{prato.descricao}</p>}
+
+            <a href="#"  className='btnComprar'><span>Comprar</span><i></i></a>
+
           </div>
         ))}
       </div>
