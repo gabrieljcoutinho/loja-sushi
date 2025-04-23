@@ -3,7 +3,7 @@ import '../CSS/Cardapio/global.css'
 import '../CSS/Cardapio/cardapio.css';
 
 const cardapioItens = [
-  { nome: '1 - Sushi de Salmão', valor: 15.00, delivery: 25.00},
+  { nome: '1 - Sushi de Salmão', valor: 15.00 , delivery: 25.00},
   { nome: '2 - Temaki de Salmão', valor: 30.00 , delivery: 40.00},
   { nome: '3 - Sashimi de Peixe Branco', valor: 22.00,  delivery: 32.00},
   { nome: '4 - Niguiri de Camarão', valor: 12.00, delivery: 22.00 },
