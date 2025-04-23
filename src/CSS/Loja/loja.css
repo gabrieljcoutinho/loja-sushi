@@ -1,17 +1,18 @@
 /* Estilos existentes */
 .loja-container {
-  padding-top: 3rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: 'Arial', sans-serif;
+   padding-top: 3rem;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-family: 'Arial', sans-serif;
 }
 
 .fileira-pratos {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  align-items: stretch;
-}
+ display: flex;
+ flex-wrap: wrap; /* Permite que os itens passem para a próxima linha */
+ margin-bottom: 30px;
+ gap: 25px; /* Espaçamento entre os cards */
+ justify-content: space-around;
+  }
 
 .card-prato {
   border: 1px solid #e0e0e0;
@@ -86,33 +87,36 @@
   position: relative;
 }
 
-/* Novos estilos para a barra de busca */
-.barra-busca {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  padding: 0 20px; /* Adiciona um pouco de padding nas laterais */
-}
+.barra-pesquisa {
+display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ padding: 10px;
+ background-color: #f8f8f8;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
-.input-busca {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-  width: 100%; /* Ocupa toda a largura do contêiner pai */
-  max-width: 400px; /* Define uma largura máxima para não ficar muito grande em telas maiores */
-}
+  .barra-pesquisa input[type="text"] {
+ padding: 12px 20px;
+ border: 1px solid #ccc;
+ border-radius: 6px;
+ font-size: 16px;
+ width: 80%;
+ max-width: 600px;
+ outline: none;
+ transition: border-color 0.3s ease;
+  }
 
-.input-busca:focus {
-  outline: none;
-  border-color: #007bff; /* Cor de destaque ao focar */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra suave ao focar */
-}
+  .barra-pesquisa input[type="text"]:focus {
+ border-color: #e4d00a;
+ box-shadow: 0 0 8px rgba(228, 208, 10, 0.3);
+  }
 
-.mensagem-sem-resultados {
-  text-align: center;
-  color: #777;
-  font-style: italic;
-  margin-top: 20px;
-  font-size: 30px;
-}
+  .mensagem-sem-resultados {
+ text-align: center;
+ color: #777;
+ font-style: italic;
+ margin-top: 20px;
+ font-size: 30px;
+  }

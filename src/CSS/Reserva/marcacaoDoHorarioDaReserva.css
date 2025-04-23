@@ -1,0 +1,126 @@
+
+
+  /* reserva.css */
+  .reserva-container {
+    background-color: #f8f8f8;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Aumentei a largura máxima para acomodar os dois elementos */
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .reserva-titulo {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+  }
+
+  .reserva-descricao {
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+  }
+
+  .reserva-layout {
+    display: flex; /* Use flexbox para organizar os filhos lado a lado */
+    gap: 30px; /* Espaçamento entre o formulário e os detalhes */
+    align-items: flex-start; /* Alinhar os itens no topo */
+  }
+
+  .reserva-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* O formulário ocupa a maior parte do espaço disponível */
+  }
+
+  .reserva-detalhes {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-basis: 300px; /* Largura fixa para os detalhes da reserva */
+  }
+
+  .reserva-detalhes h3 {
+    color: #e74c3c;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .reserva-detalhes p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+
+  .reserva-mensagem {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  /* form.css (sem alterações significativas, mas mantenho aqui para referência) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="date"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+  }
+
+  .form-group select {
+    appearance: none; /* Remove as setas padrão do select */
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    padding-right: 25px;
+    background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+  }
+
+  .reserva-botao {
+    background-color: #e74c3c; /* Vermelho característico */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+
+  .reserva-botao:hover {
+    background-color: #c0392b;
+  }
+
+  /* Estilos adicionais para um toque japonês (opcional) */
+  .reserva-titulo::after {
+    content: '🥢'; /* Adiciona um emoji de hashis */
+    margin-left: 10px;
+  }
+
+  .reserva-container {
+    background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+    background-position: center; /* Para centralizar a imagem */
+    padding: 20px; /* Adicione um pouco de padding para o conteúdo não ficar colado nas bordas */
+  }
