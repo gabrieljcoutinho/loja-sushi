@@ -24,6 +24,11 @@ import  ceviche from '../img/pratos/ceviche.jpg'
 import kare from '../img/pratos/kare.jpg'
 import robata from '../img/pratos/robata.jpg'
 
+import combo1 from '../img/combos/combo1.jpg'
+import combo2 from '../img/combos/combo2.jpg'
+import combo3 from '../img/combos/combo3.jpg'
+import combo4 from '../img/combos/combo4.jpg'
+
 
 const pratosJaponeses = [
   { nome: 'Sushi de Salmão', descricao: 'Fatias frescas de salmão sobre arroz japonês.', valor: 'R$ 15,00', porção: 'Porção com 10', imagem: salmao },
@@ -45,7 +50,12 @@ const pratosJaponeses = [
   { nome: 'Combinado do Chef', descricao: 'Um prato surpresa diário feito pelo chef', valor: 'R$ 79,00',  imagem: combinadoChef },
   {nome: 'Ceviche', descricao: 'Salmão cru, cebola e cebola roxa picada ', valor: 'R$: 8,00', imagem: ceviche},
   {nome: 'Karê', descricao: 'Carne, arroz e molho especial ', valor: 'R$: 20,00', imagem: kare},
-  {nome: 'Robata', descricao: 'Espetinh ode verduras e leumes ', valor: 'R$: 110,00', imagem: robata}
+  {nome: 'Robata', descricao: 'Espetinh ode verduras e leumes ', valor: 'R$: 110,00', imagem: robata},
+
+  {nome: 'Combo para uma pessoa', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo1},
+  {nome: 'Combo para duas pessoas', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo2},
+  {nome: 'Combo para três pessoas', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo3},
+  {nome: 'Combo para quatro pessoa', descricao: 'Combo de sushi', valor: 'R$: 250,00', imagem: combo4},
 ];
 
 // Função auxiliar para remover acentos e converter para minúsculas
