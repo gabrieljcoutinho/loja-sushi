@@ -6,6 +6,7 @@
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
   font-style: italic;
+  padding-top: 5rem;
 }
 
 .search-bar input[type="text"] {
