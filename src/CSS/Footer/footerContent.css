@@ -1,0 +1,45 @@
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-contact,
+  .footer-hours,
+  .footer-links,
+  .footer-social {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .footer-contact h3,
+  .footer-hours h3,
+  .footer-links h3,
+  .footer-social h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .footer-contact p,
+  .footer-hours p {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+
+
+  .footer-social .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-social .social-icons a:hover {
+    color: #e44d26;
+    text-decoration: underline;
+  }
