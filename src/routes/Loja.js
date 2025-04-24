@@ -187,6 +187,7 @@ const Loja = () => {
           placeholder="Buscar prato..."
           value={searchTerm}
           onChange={handleSearch}
+          title='Clicar'
         />
       </div>
       <div className='flexbox'>
@@ -200,7 +201,7 @@ const Loja = () => {
              <br /><br /><br /><br /><br />
                <p className='preco'>{prato.preco}</p>
                <br /><br />
-               <a href="#" className='btnComprar'><span>Comprar</span><i></i></a>
+               <a href="#" className='btnComprar' title='Clicar'><span>Comprar</span><i></i></a>
              </div>
            ))
          ) : (
