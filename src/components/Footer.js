@@ -1,6 +1,5 @@
 import React from 'react';
 import '../CSS/Footer/footer.css'; // Mantenha o arquivo CSS para os estilos
-import '../CSS/Footer/contato.css'; // Mantenha o arquivo CSS para os estilos
 
 const Footer = () => {
   return (
@@ -33,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Sua Loja de Sushi. Todos os direitos reservados.</p>
+        <p className='copy'>&copy; {new Date().getFullYear()} Sua Loja de Sushi. Todos os direitos reservados.</p>
         <div className="payment-methods">
           <span>Formas de Pagamento:</span>
           <span>Dinheiro, Pix, Débito, Crédito e Cheque</span>
