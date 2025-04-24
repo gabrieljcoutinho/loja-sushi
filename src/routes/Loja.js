@@ -20,6 +20,10 @@ import img13 from '../img/pratos/temakiSalmao.jpg';
 import img14 from '../img/pratos/tempura.jpg';
 import img15 from '../img/pratos/yakisoba.jpg';
 import img16 from '../img/pratos/yakisobaFrutosDoMar.jpg';
+import img17 from '../img/pratos/hossomaki.jph.webp'
+import img18 from '../img/pratos/yakitori.jpg'
+import img19 from '../img/pratos/lulaEmpanada.jpg'
+import img20 from '../img/pratos/frangoTeriyaki.jpg'
 
 const pratosInfo = [
   {
@@ -133,6 +137,34 @@ const pratosInfo = [
     descricao: 'Macarrão japonês frito com camarão, lula, polvo e legumes, ao molho especial.',
     ingredientes: 'Macarrão para yakisoba, camarão, lula, polvo, repolho, cenoura, brócolis, cebola, molho yakisoba.',
     preco: 'R$ 13,50'
+  },
+  {
+    nome: 'Hossomaki',
+    imagem: img17,
+    descricao: 'Hossomaki é um sushi pequeno e fino. Tem arroz, uma alga marinha por fora e só um recheio dentro, como atum, salmão ou pepino',
+    ingredientes: 'Nori (alga marinha), Shari (arroz para sushi), Um único recheio (ex: atum, salmão, pepino)',
+    preco: 'R$ 11,50'
+  },
+  {
+    nome:'Yakitori',
+    imagem: img18,
+    descricao: 'Yakitori é um espetinho japonês, geralmente de frango, grelhado e temperado com molho ou sal.',
+    ingredientes: 'Pedaços de frango ou outros alimentos espetados em palitos e temperados com molho ou sal',
+    preco: 'R$ 13,00'
+  },
+  {
+    nome:'Lula empanada',
+    imagem: img19,
+    descricao: 'Lula empanada é lula cortada em anéis, revestida com uma camada crocante e frita.',
+    ingredientes: 'Anéis de lula, farinha de trigo, ovo , temperos (sal, pimenta, páprica, limão)',
+    preco: 'R$ 30,00'
+  },
+  {
+    nome:'Frango Teriaki',
+    imagem: img20,
+    descricao: ' prato japonês onde pedaços de frango são grelhados ou assados com um molho doce e salgado à base de shoyu, mirin e açúcar',
+    ingredientes: 'frango e um molho feito principalmente de shoyu, mirin e açúcar.',
+    preco: 'R$ 35,00'
   },
 ];
 

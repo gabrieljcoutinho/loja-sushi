@@ -1,129 +1,115 @@
-.flexbox{
+.flexbox {
   padding-top: 5rem;
-  height: 100px;
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 15px;
   justify-content: space-between;
   padding-left: 5rem;
   padding-right: 5rem;
-    }
 
-    .flexbox .produto {
+}
+
+.flexbox .produto {
   width: 350px;
   margin: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Organiza os itens internos na vertical */
   background-color: darkred;
-    }
+}
 
-    .flexbox img {
+.flexbox img {
   width: 350px;
-  display: block; /* Impede espaços extras abaixo da imagem */
+  display: block;
   height: 200px;
   border-radius: 5px 5px 0 0;
-    }
+}
 
-    .flexbox div{
+.flexbox div {
   background-color: darkred;
-  width: 350px; /* Mantendo a largura original */
+  width: 350px;
   margin: 15px;
-  height: 501px; /* Mantendo a altura original */
+  height: 501px;
   display: flex;
-  flex-direction: column; /* Para organizar os elementos verticalmente */
+  flex-direction: column; /* Garante que os elementos internos continuem em coluna */
   border-radius: 15px 15px 15px 15px;
   transition: 1.5s;
-    }
+}
 
-    .flexbox div:hover{
-      -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      transform: scale(1.05);
-      transition: 1.5s;
-    }
+.flexbox div:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 
-    .loja-container {
-  padding-bottom: 5rem; /* Adiciona um espaçamento na parte inferior da loja */
-  min-height: 140rem; /* Garante que a loja ocupe pelo menos a altura da tela */
-    }
+.loja-container {
+  padding-bottom: 5rem;
+  min-height: 140rem;
+}
 
-    .descricao{
+.descricao {
   color: white;
   background-color: black;
-  padding: 10px; /* Adicionei padding para melhor visual */
+  padding: 10px;
   font-size: 20px;
-    }
+}
 
+.btnComprar {
+  position: relative;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  padding: 8px 12px;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+  margin-top: auto; /* Empurra o botão para a parte inferior */
+}
 
+.btnComprar:hover {
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 25px rgba(15, 240, 252, 0.7);
+}
 
+.btnComprar::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background-color: #27282c;
+  z-index: 0;
+}
 
+.btnComprar span {
+  position: relative;
+  z-index: 1;
+}
 
+.btnComprar i {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: rgba(15, 240, 252, 0.7);
+  mix-blend-mode: difference;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
 
+.btnComprar:hover i {
+  transform: translateX(0);
+}
 
+.preco {
+  color: white;
+  font-size: 20px;
+  padding-right: 1rem;
+  padding-top: 5px;
+}
 
-
-
-
-
-
-
-
-    .btnComprar {
-      position: relative;
-      background-color: #444;
-      color: #fff;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 1rem;
-      letter-spacing: 0.1em;
-      padding: 8px 12px; /* Diminuindo o padding lateral para 12px */
-      transition: 0.3s ease-in-out;
-      overflow: hidden;
-    }
-
-    .btnComprar:hover {
-      letter-spacing: 0.2em;
-      color: rgba(255, 255, 255, 0.9);
-      box-shadow: 0 0 25px rgba(15, 240, 252, 0.7);
-    }
-
-    .btnComprar::before {
-      content: '';
-      position: absolute;
-      inset: 2px;
-      background-color: #27282c;
-      z-index: 0;
-    }
-
-    .btnComprar span {
-      position: relative;
-      z-index: 1;
-    }
-
-    .btnComprar i {
-      position: absolute;
-      inset: 0;
-      display: block;
-      background: rgba(15, 240, 252, 0.7);
-      mix-blend-mode: difference;
-      transform: translateX(-100%);
-      transition: transform 0.4s ease-in-out;
-    }
-
-    .btnComprar:hover i {
-      transform: translateX(0);
-    }
-
-    .preco{
-      color: white;
-      font-size: 20px;
-      padding-right: 1rem;
-      padding-top: 5px;
-    }
-
-    .ingredientes{
-      color: white;
-      font-size: 20px;
-       padding-top: 5px;
-
-     }
+.ingredientes {
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+}
