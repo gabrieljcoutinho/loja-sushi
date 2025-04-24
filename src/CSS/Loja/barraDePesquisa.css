@@ -1,24 +1,57 @@
-
 .search-bar {
   display: flex;
-  justify-content: center; /* Centraliza o input horizontalmente */
-  padding: 2rem; /* Adiciona um espaçamento ao redor da barra de busca */
-  background-color: #f8f8f8; /* Cor de fundo para a barra de busca */
-  border-bottom: 1px solid #eee; /* Adiciona uma borda sutil na parte inferior */
-    }
+  justify-content: center;
+  align-items: center; /* Centraliza os itens verticalmente também, útil se adicionar um botão */
+  padding: 1.5rem 2rem; /* Reduzi um pouco o padding superior e inferior */
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
 
-    .search-bar input[type="text"] {
-  padding: 1rem;
+.search-bar input[type="text"] {
+  padding: 0.8rem 1rem; /* Ajustei o padding interno para um visual um pouco mais compacto */
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 6px; /* Arredondamento um pouco menor, mais moderno */
   font-size: 1rem;
-  width: 80%; /* Ocupa uma boa parte da largura do container */
-  max-width: 600px; /* Define uma largura máxima para não ficar muito grande em telas maiores */
-  box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura total */
-    }
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave para o foco */
+}
 
-    .search-bar input[type="text"]:focus {
-  outline: none; /* Remove a borda de foco padrão do navegador */
-  border-color: darkred; /* Altera a cor da borda ao receber foco */
-  box-shadow: 0 0 5px rgba(139, 0, 0, 0.5); /* Adiciona uma sombra sutil ao receber foco */
-    }
+.search-bar input[type="text"]:focus {
+  outline: none;
+  border-color: #dc3545; /* Vermelho mais consistente com a paleta de cores */
+  box-shadow: 0 0 8px rgba(220, 53, 69, 0.3); /* Sombra mais suave e com a cor de foco */
+}
+
+/* Opcional: Estilo para um possível botão de busca */
+.search-bar button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem; /* Espaçamento entre o input e o botão */
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #c82333; /* Tom mais escuro ao passar o mouse */
+}
+
+.search-bar button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+
+/* Em barraDePesquisa.css ou loja.css */
+.mensagem-nao-encontrado {
+  color: red; /* Exemplo de cor vermelha */
+  font-style: italic; /* Deixa a mensagem em itálico */
+  margin-top: 13rem; /* Adiciona um espaçamento acima da mensagem */
+padding-left: 30rem;
+  font-size: 50px;
+}

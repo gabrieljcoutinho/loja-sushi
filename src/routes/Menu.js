@@ -19,7 +19,8 @@ const cardapioItens = [
   { nome: '14 - Tempura', valor: 14.00, delivery: 24.00},
   { nome: '15 - Lámen', valor: 14.00, delivery: 24.00},
   { nome: '16 - Teppan', valor: 14.00,  delivery:  24.00},
-  {nome: '17 - Combinado do Chef', valor: 79.00, delivery: 89.00}
+  {nome: '17 - Combinado do Chef', valor: 79.00, delivery: 89.00},
+  {nome: '18 - Ceviche', valor: 30.00, delivery: 45.00}
 ];
 
 const ItemCardapio = ({ item }) => (
