@@ -5,6 +5,7 @@
   padding: 1.5rem 2rem; /* Reduzi um pouco o padding superior e inferior */
   background-color: #f8f8f8;
   border-bottom: 1px solid #eee;
+  font-style: italic;
 }
 
 .search-bar input[type="text"] {
@@ -16,12 +17,14 @@
   max-width: 600px;
   box-sizing: border-box;
   transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave para o foco */
+  font-style: italic;
 }
 
 .search-bar input[type="text"]:focus {
   outline: none;
   border-color: #dc3545; /* Vermelho mais consistente com a paleta de cores */
   box-shadow: 0 0 8px rgba(220, 53, 69, 0.3); /* Sombra mais suave e com a cor de foco */
+  font-style: italic;
 }
 
 /* Opcional: Estilo para um possível botão de busca */
@@ -35,15 +38,18 @@
   cursor: pointer;
   margin-left: 0.5rem; /* Espaçamento entre o input e o botão */
   transition: background-color 0.3s ease;
+  font-style: italic;
 }
 
 .search-bar button:hover {
   background-color: #c82333; /* Tom mais escuro ao passar o mouse */
+  font-style: italic;
 }
 
 .search-bar button:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+  font-style: italic;
 }
 
 
@@ -54,4 +60,5 @@
   margin-top: 13rem; /* Adiciona um espaçamento acima da mensagem */
 padding-left: 30rem;
   font-size: 50px;
+  font-style: italic;
 }

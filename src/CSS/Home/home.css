@@ -5,6 +5,7 @@
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
+    font-style: italic;
   }
 
 
@@ -26,6 +27,7 @@
     font-size: 3em;
     color: #333;
     margin-bottom: 15px;
+    font-style: italic;
   }
 
   .hero-content .subtitle {
@@ -37,6 +39,7 @@
 
   .hero-buttons a {
     margin-right: 15px;
+    font-style: italic;
   }
 
   .hero-image {

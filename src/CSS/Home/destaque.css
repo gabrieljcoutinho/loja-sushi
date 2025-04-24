@@ -9,6 +9,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 30px;
+    font-style: italic;
   }
 
   .featured-item {
@@ -17,6 +18,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     text-align: center;
+    font-style: italic;
   }
 
   .featured-item img {
@@ -37,12 +39,14 @@
     color: #777;
     line-height: 1.5;
     margin-bottom: 15px;
+    font-style: italic;
   }
 
   .featured-item .price {
     font-weight: bold;
     color: #e44d26;
     font-size: 1.1em;
+    font-style: italic;
   }
 
   .featured-section .button {
@@ -50,4 +54,5 @@
     margin: 30px auto 0;
     max-width: 200px;
     text-align: center;
+    font-style: italic;
   }

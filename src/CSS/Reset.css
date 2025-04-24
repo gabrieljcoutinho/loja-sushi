@@ -5,6 +5,7 @@ html,body,section,mais,footer{
   margin: 0;
   padding-bottom: 0;
   padding-top: 0;
+  font-style: italic;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -12,10 +13,16 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding-bottom: 0;
   padding-top: 0;
+  font-style: italic;
+}
+
+p{
+  font-style: italic;
 }
 
 a{
   list-style-type: none;
+  font-style: italic;
 }
 
 ul{

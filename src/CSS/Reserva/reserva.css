@@ -6,7 +6,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 900px; /* Aumentei a largura máxima para acomodar os dois elementos */
   margin: 40px auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .reserva-titulo {
@@ -14,6 +14,7 @@
   text-align: center;
   margin-bottom: 20px;
   font-size: 2.2em;
+  font-style: italic;
 }
 
 .reserva-descricao {
@@ -21,18 +22,21 @@
   text-align: center;
   margin-bottom: 30px;
   font-size: 1.1em;
+  font-style: italic;
 }
 
 .reserva-layout {
   display: flex; /* Use flexbox para organizar os filhos lado a lado */
   gap: 30px; /* Espaçamento entre o formulário e os detalhes */
   align-items: flex-start; /* Alinhar os itens no topo */
+  font-style: italic;
 }
 
 .reserva-form {
   display: flex;
   flex-direction: column;
   flex: 1; /* O formulário ocupa a maior parte do espaço disponível */
+  font-style: italic;
 }
 
 .reserva-detalhes-container {
@@ -41,28 +45,33 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   flex-basis: 300px; /* Largura fixa para os detalhes da reserva */
+  font-style: italic;
 }
 
 .reserva-detalhes-container h3 {
   color: #e74c3c;
   margin-top: 0;
   margin-bottom: 15px;
+  font-style: italic;
 }
 
 .reserva-detalhes-container p {
   margin-bottom: 10px;
   color: #555;
+  font-style: italic;
 }
 
 .reserva-mensagem {
   color: green;
   font-weight: bold;
   margin-top: 15px;
+  font-style: italic;
 }
 
 /* form.css (sem alterações significativas, mantenho aqui para referência) */
 .form-group {
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 .form-group label {
@@ -70,6 +79,7 @@
   margin-bottom: 8px;
   color: #555;
   font-weight: bold;
+  font-style: italic;
 }
 
 .form-group input[type="text"],
@@ -85,6 +95,7 @@
   font-size: 1em;
   box-sizing: border-box;
   background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+  font-style: italic;
 }
 
 .form-group select {
@@ -94,6 +105,7 @@
   background-position-y: 50%;
   padding-right: 25px;
   background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+  font-style: italic;
 }
 
 .reserva-botao {
@@ -105,20 +117,23 @@
   cursor: pointer;
   font-size: 1.1em;
   transition: background-color 0.3s ease;
+  font-style: italic;
 }
 
 .reserva-botao:hover {
   background-color: #c0392b;
+  font-style: italic;
 }
 
-/* Estilos adicionais para um toque japonês (opcional) */
 .reserva-titulo::after {
   content: '🥢'; /* Adiciona um emoji de hashis */
   margin-left: 10px;
+  font-style: italic;
 }
 
 .reserva-container {
   background-repeat: no-repeat; /* Para evitar que a imagem se repita */
   background-position: center; /* Para centralizar a imagem */
   padding: 20px; /* Adicione um pouco de padding para o conteúdo não ficar colado nas bordas */
+  font-style: italic;
 }

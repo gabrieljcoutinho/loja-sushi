@@ -22,6 +22,7 @@
     font-size: 1em;
     box-sizing: border-box;
     background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+    font-style: italic;
   }
 
   .form-group select {
@@ -31,6 +32,7 @@
     background-position-y: 50%;
     padding-right: 25px;
     background-color: white; /* Adicionado um fundo branco para melhor leitura sobre a imagem */
+    font-style: italic;
   }
 
   .reserva-botao {
@@ -42,20 +44,23 @@
     cursor: pointer;
     font-size: 1.1em;
     transition: background-color 0.3s ease;
+    font-style: italic;
   }
 
   .reserva-botao:hover {
     background-color: #c0392b;
+    font-style: italic;
   }
 
   /* Estilos adicionais para um toque japonês (opcional) */
   .reserva-titulo::after {
     content: '🥢'; /* Adiciona um emoji de hashis */
     margin-left: 10px;
+    font-style: italic;
   }
 
   .reserva-container {
-
+    font-style: italic;
     background-repeat: no-repeat; /* Para evitar que a imagem se repita */
     background-position: center; /* Para centralizar a imagem */
     padding: 20px; /* Adicione um pouco de padding para o conteúdo não ficar colado nas bordas */
