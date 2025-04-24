@@ -1,0 +1,29 @@
+.footer {
+    background-color: #252525;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+
+
+  .footer-bottom p {
+    margin-bottom: 0;
+  }
+
+
+
+  .payment-methods {
+    display: flex;
+    align-items: center;
+  }
+
+  .payment-methods span {
+    margin-right: 10px;
+  }
+
+  .payment-methods img {
+    height: 25px;
+    margin-left: 5px;
+  }
+
+  /* Adapte as cores e estilos ao tema da sua loja de sushi! */
