@@ -1,4 +1,4 @@
-# Restaurante de sushi
+# P Restaurante de sushi
 
 Criei um site de um resturante e sushi, nele o usuário cose ver a página inicial mostrando o restaurante e falando sobre os pratos princiapais, há a possibilidade do usuário pedir delivery, acessando o cardápio virtual.
 
