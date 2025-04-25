@@ -24,8 +24,8 @@ const MissoshiruDelicioso = () => {
       <div className="produto-detalhes">
         <h2 className="produto-titulo">Missoshiru Tradicional com Tofu</h2>
         <p className="produto-descricao">
-          Uma sopa japonesa leve e saborosa, feita com pasta de missô de alta
-          qualidade, caldo dashi suave, cubos de tofu macio e algas wakame. Um
+          Uma sopa japonesa leve, saborosa e bem quente, feita com pasta de missô de alta
+          qualidade, caldo dashi suave, cubos de tofu macio e algas wakame, servido em uma tigela de silicone. Um
           acompanhamento perfeito para qualquer refeição japonesa, repleto de
           umami e nutrientes.
         </p>

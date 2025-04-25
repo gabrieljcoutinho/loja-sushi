@@ -27,7 +27,7 @@ const KareDelicioso = () => {
           Um prato quente e reconfortante da culinária japonesa! Nosso kare é
           feito com um caldo rico e cremoso, pedaços macios de carne, batatas,
           cenouras e um toque especial de especiarias japonesas. Perfeito para
-          aquecer o corpo e a alma em qualquer dia.
+          aquecer o corpo e a alma em qualquer dia, principalmente em dias frios.
         </p>
         <div className="produto-preco-e-compra">
           <span className="produto-preco">R$ {calcularPrecoTotal()}</span>

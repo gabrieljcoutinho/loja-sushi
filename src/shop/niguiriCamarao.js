@@ -22,10 +22,10 @@ const NiguiriCamaraoDelicioso = () => {
         className="produto-imagem"
       />
       <div className="produto-detalhes">
-        <h2 className="produto-titulo">Niguiri de Camarão Premium</h2>
+        <h2 className="produto-titulo">Niguiri de Camarão </h2>
         <p className="produto-descricao">
-          Fatias suculentas de camarão fresco, delicadamente posicionadas sobre
-          pequenos bolinhos de arroz japonês temperado. Uma combinação clássica e
+          Fatias suculentas de camarão interio fresco, delicadamente posicionadas sobre
+          pequenos bolinhos de arroz japonês temperado com uma faixa de nori. Uma combinação clássica e
           irresistível que realça a doçura natural do camarão. Perfeito para
           apreciar a pureza dos ingredientes.
         </p>

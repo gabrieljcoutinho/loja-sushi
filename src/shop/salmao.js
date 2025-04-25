@@ -22,10 +22,10 @@ const SashimiSalmaoDelicioso = () => {
         className="produto-imagem"
       />
       <div className="produto-detalhes">
-        <h2 className="produto-titulo">Sashimi de Salmão Premium</h2>
+        <h2 className="produto-titulo">Sashimi de Salmão</h2>
         <p className="produto-descricao">
-          Fatias finas e frescas de salmão de alta qualidade, com uma textura
-          sedosa e sabor delicado. Uma experiência gastronômica que realça a
+          Fatias finas cruas e frescas de salmão de alta qualidade enrolado em neri, com uma textura
+          sedosa e sabor delicado acompanhado de shoyu. Uma experiência gastronômica que realça a
           pureza e o frescor do peixe. Perfeito para os apreciadores de sashimi
           autêntico.
         </p>

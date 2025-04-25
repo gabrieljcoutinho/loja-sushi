@@ -10,6 +10,7 @@
     background-color: #fff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais suave e moderna */
     transition: transform 0.2s ease-in-out; /* Pequena animação ao passar o mouse */
+
   }
 
   .produto-container:hover {
@@ -19,7 +20,7 @@
   /* Estilos para a imagem do produto */
   .produto-imagem {
     width: 100%;
-    height: auto;
+    height:100rem;
     border-radius: 8px;
     overflow: hidden; /* Garante que a borda arredondada funcione */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);

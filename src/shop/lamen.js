@@ -24,9 +24,9 @@ const LamenDelicioso = () => {
       <div className="produto-detalhes">
         <h2 className="produto-titulo">Lamen Shoyu Autêntico</h2>
         <p className="produto-descricao">
-          Uma tigela reconfortante de macarrão lamen em um caldo rico de shoyu,
-          acompanhado de fatias de carne suína macia, ovo cozido, alga nori,
-          cebolinha e outros acompanhamentos frescos. Uma explosão de umami em
+          Uma tigela reconfortante de macarrão lamen com um caldo cheio de shoyu,
+          acompanhado de várias fatias de carne suína macia empanada, um ovo cozido, alga nori,
+          cebolinha picada e outros acompanhamentos frescos como cenoura picada . Uma explosão de umami em
           cada colherada!
         </p>
         <div className="produto-preco-e-compra">

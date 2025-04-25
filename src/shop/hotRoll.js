@@ -27,7 +27,7 @@ const HotRollDelicioso = () => {
           Enroladinhos de salmão fresco com recheio cremoso, empanados e fritos
           para uma crocância irresistível. Nossos hot rolls são uma explosão de
           sabores e texturas, perfeitos para quem ama a culinária japonesa com um
-          toque especial.
+          toque especial de um tempero colhido nas ilhas Maldivas.
         </p>
         <div className="produto-preco-e-compra">
           <span className="produto-preco">R$ {calcularPrecoTotal()}</span>
