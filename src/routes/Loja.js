@@ -159,7 +159,7 @@ const pratosInfo = [
     descricao: 'Hossomaki é um sushi pequeno e fino. Tem arroz, uma alga marinha por fora e só um recheio dentro, como atum, salmão ou pepino',
     ingredientes: 'Nori (alga marinha), Shari (arroz para sushi), Um único recheio (ex: atum, salmão, pepino)',
     preco: 'R$ 11,50',
-    link: '' // Link para a página do Hossomaki
+    link: '/loja/Hossomaki' // Link para a página do Hossomaki
   },
   {
     nome:'Yakitori',
@@ -167,7 +167,7 @@ const pratosInfo = [
     descricao: 'Yakitori é um espetinho japonês, geralmente de frango, grelhado e temperado com molho ou sal.',
     ingredientes: 'Pedaços de frango ou outros alimentos espetados em palitos e temperados com molho ou sal',
     preco: 'R$ 13,00',
-    link: '' // Link para a página do Yakitori
+    link: '/loja/Yakitori' // Link para a página do Yakitori
   },
   {
     nome:'Lula empanada',
@@ -175,7 +175,7 @@ const pratosInfo = [
     descricao: 'Lula empanada é lula cortada em anéis, revestida com uma camada crocante e frita.',
     ingredientes: 'Anéis de lula, farinha de trigo, ovo , temperos (sal, pimenta, páprica, limão)',
     preco: 'R$ 30,00',
-    link: '' // Link para a página da Lula Empanada
+    link: '/loja/LulaEmpanada' // Link para a página da Lula Empanada
   },
   {
     nome:'Frango Teriaki',
@@ -183,7 +183,7 @@ const pratosInfo = [
     descricao: ' prato japonês onde pedaços de frango são grelhados ou assados com um molho doce e salgado à base de shoyu, mirin e açúcar',
     ingredientes: 'frango e um molho feito principalmente de shoyu, mirin e açúcar.',
     preco: 'R$ 35,00',
-    link: '' // Link para a página do Frango Teriyaki
+    link: '/loja/Teriaki' // Link para a página do Frango Teriyaki
   },
 ];
 

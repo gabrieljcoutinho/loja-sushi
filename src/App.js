@@ -30,6 +30,10 @@ import TemakiSalmao from './shop/temakiSalmao.js'
 import Tempura from './shop/tempura.js'
 import Yakisoba from './shop/yakisoba.js'
 import YakisobaFrutosDoMar from './shop/yaksobaFrutosDoMar.js'
+import Hossomaki from './shop/Hossomaki.js'
+import Yakitori from './shop/Yakitori.js'
+import LulaEmpanada from './shop/LulaEmpanada.js'
+import Teriaki from './shop/teriaki.js';
 
 function App() {
     return (
@@ -63,6 +67,11 @@ function App() {
         <Route path="/loja/Tempura" element={<Tempura />} />
         <Route path="/loja/Yakisoba" element={<Yakisoba />} />
         <Route path="/loja/YakisobaFrutosDoMar" element={<YakisobaFrutosDoMar />} />
+        <Route path="/loja/ossomaki" element={<Hossomaki />} />
+        <Route path="/loja/Yakitori" element={<Yakitori />} />
+        <Route path="/loja/LulaEmpanada" element={<LulaEmpanada />} />
+        <Route path="/loja/Teriaki" element={<Teriaki />} />
+
 
 
 </Routes>
