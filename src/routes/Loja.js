@@ -216,18 +216,24 @@ const Loja = () => {
               <img src={prato.imagem} alt={prato.nome} />
               {prato.descricao && <p className='descricao'>{prato.nome}</p>}
 
-             {prato.ingredientes && <p className='ingredientes'>Ingredientes: {prato.ingredientes}</p>}
-             <br /><br /><br /><br /><br />
-               <p className='preco'>{prato.preco}</p>
-               <br /><br />
-               <a href={prato.link} className='btnComprar' title='Clicar'>
-                 <span>Comprar</span><i></i>
-               </a>
-             </div>
-           ))
-         ) : (
-           <p className='mensagem-nao-encontrado'>Não existe o produto "{searchTerm}" nessa loja.</p>
-         )}
+              {prato.ingredientes && <p className='ingredientes'>Ingredientes: {prato.ingredientes}</p>}
+              <br /><br /><br /><br /><br />
+                <p className='preco'>{prato.preco}</p>
+                <br /><br />
+                <a
+                  href={prato.link}
+                  className='btnComprar'
+                  title='Clicar'
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Comprar</span><i></i>
+                </a>
+              </div>
+            ))
+          ) : (
+            <p className='mensagem-nao-encontrado'>Não existe o produto "{searchTerm}" nessa loja.</p>
+          )}
       </div>
     </div>
   );
