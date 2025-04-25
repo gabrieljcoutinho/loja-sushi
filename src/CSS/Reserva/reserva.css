@@ -49,7 +49,7 @@
 }
 
 .reserva-detalhes-container h3 {
-  color: #e74c3c;
+  color: #252525;
   margin-top: 0;
   margin-bottom: 15px;
   font-style: italic;
@@ -109,7 +109,7 @@
 }
 
 .reserva-botao {
-  background-color: #e74c3c; /* Vermelho característico */
+  background-color: #252525; /* Vermelho característico */
   color: white;
   padding: 15px 20px;
   border: none;
@@ -121,7 +121,7 @@
 }
 
 .reserva-botao:hover {
-  background-color: #c0392b;
+  background-color: #252525;
   font-style: italic;
 }
 
