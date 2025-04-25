@@ -13,19 +13,41 @@ import NotFound from './error/NotFound';
 import Reserva from './routes/Reserva';
 import Menu from './routes/Menu';
 
-function App() {
-      return (
-        <div className="App">
-          <BrowserRouter>
+//Pages da loja
+import RolinhoPrimavera from './shop/rolinhoPrimavera.js';
+import Ceviche from './shop/ceviche.js';
+import Guioza from './shop/guioza.js'
+import HotRollPage from './shop/hotRoll.js';
+import Kare from './shop/kare.js'
+import Lamen from './shop/lamen.js'
+import Missoshiru from './shop/missoshiru.js'
+import NiguiriCamarao from './shop/niguiriCamarao.js'
 
-          <Header />
+function App() {
+    return (
+        <div className="App">
+            <BrowserRouter>
+
+            <Header />
 
     <Routes>
+      {/*Links header */}
         <Route path="/" element={<Home />} />
         <Route path="/Loja" element={<Loja />} />
-      <Route path="*" element={<NotFound />} /> {/* Rota para qualquer URL não correspondente */}
-      <Route path="/Reserva" element={<Reserva />} /> {/* Rota para qualquer URL não correspondente */}
-      <Route path="/Menu" element={<Menu />} /> {/* Rota para qualquer URL não correspondente */}
+        <Route path="*" element={<NotFound />} /> {/* Rota para qualquer URL não correspondente */}
+        <Route path="/Reserva" element={<Reserva />} /> {/* Rota para qualquer URL não correspondente */}
+        <Route path="/Menu" element={<Menu />} /> {/* Rota para qualquer URL não correspondente */}
+
+        {/*Links shop */}
+        <Route path="/loja/rolinhoPrimavera" element={<RolinhoPrimavera />} />
+        <Route path="/loja/ceviche" element={<Ceviche />} />
+        <Route path="/loja/guioza" element={<Guioza />} />
+        <Route path="/loja/hotRoll" element={<HotRollPage />} />
+        <Route path="/loja/kare" element={<Kare />} />
+        <Route path="/loja/lamen" element={<Lamen />} />
+        <Route path="/loja/missoshiru" element={<Missoshiru />} />
+        <Route path="/loja/niguiriCamarao" element={<NiguiriCamarao />} />
+
 </Routes>
 
 <Footer />
