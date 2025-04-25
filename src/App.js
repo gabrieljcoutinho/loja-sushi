@@ -26,6 +26,9 @@ import Salmao from './shop/salmao.js'
 import SashimiPeixeBranco from './shop/sashimiPeixeBranco.js'
 import Shimeji from './shop/shimeji.js'
 import Sunomomo from './shop/sunomono.js'
+import TemakiSalmao from './shop/temakiSalmao.js'
+import Tempura from './shop/tempura.js'
+import Yakisoba from './shop/yakisoba.js'
 
 function App() {
     return (
@@ -55,6 +58,10 @@ function App() {
         <Route path="/loja/sashimiPeixeBranco" element={<SashimiPeixeBranco />} />
         <Route path="/loja/Shimeji" element={<Shimeji />} />
         <Route path="/loja/Sunomomo" element={<Sunomomo />} />
+        <Route path="/loja/TemakiSalmao" element={<TemakiSalmao />} />
+        <Route path="/loja/Tempura" element={<Tempura />} />
+        <Route path="/loja/Yakisoba" element={<Yakisoba />} />
+
 
 </Routes>
 

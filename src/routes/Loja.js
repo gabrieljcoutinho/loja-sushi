@@ -127,7 +127,7 @@ const pratosInfo = [
     descricao: 'Cone de alga nori recheado com arroz, salmão e cream cheese.',
     ingredientes: 'Alga nori, arroz japonês, salmão, cream cheese, cebolinha (opcional).',
     preco: 'R$ 15,75',
-    link: '' // Link para a página do Temaki de Salmão
+    link: '/loja/TemakiSalmao' // Link para a página do Temaki de Salmão
   },
   {
     nome: 'Tempura',
@@ -135,7 +135,7 @@ const pratosInfo = [
     descricao: 'Legumes e camarões empanados em massa leve e crocante.',
     ingredientes: 'Camarões, legumes variados (abóbora, berinjela, brócolis, etc.), farinha de trigo, ovo, água gelada.',
     preco: 'R$ 28,00',
-    link: '' // Link para a página do Tempura
+    link: '/loja/Tempura' // Link para a página do Tempura
   },
   {
     nome: 'Yakisoba',
@@ -143,7 +143,7 @@ const pratosInfo = [
     descricao: 'Macarrão japonês frito com carne, legumes e molho especial.',
     ingredientes: 'Macarrão para yakisoba, carne bovina em tiras, repolho, cenoura, brócolis, cebola, molho yakisoba.',
     preco: 'R$ 13,00',
-    link: '' // Link para a página do Yakisoba
+    link: '/loja/Yakisoba' // Link para a página do Yakisoba
   },
   {
     nome: 'Yakisoba de Frutos do Mar',
