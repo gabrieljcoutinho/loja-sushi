@@ -67,7 +67,7 @@ function App() {
         <Route path="/loja/Tempura" element={<Tempura />} />
         <Route path="/loja/Yakisoba" element={<Yakisoba />} />
         <Route path="/loja/YakisobaFrutosDoMar" element={<YakisobaFrutosDoMar />} />
-        <Route path="/loja/ossomaki" element={<Hossomaki />} />
+        <Route path="/loja/Hossomaki" element={<Hossomaki />} />
         <Route path="/loja/Yakitori" element={<Yakitori />} />
         <Route path="/loja/LulaEmpanada" element={<LulaEmpanada />} />
         <Route path="/loja/Teriaki" element={<Teriaki />} />

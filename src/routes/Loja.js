@@ -19,7 +19,7 @@ import img13 from '../img/pratos/temakiSalmao.jpg';
 import img14 from '../img/pratos/tempura.jpg';
 import img15 from '../img/pratos/yakisoba.jpg';
 import img16 from '../img/pratos/yakisobaFrutosDoMar.jpg';
-import img17 from '../img/pratos/hossomaki.jph.webp';
+import img17 from '../img/pratos/hossomaki.jpg';
 import img18 from '../img/pratos/yakitori.jpg';
 import img19 from '../img/pratos/lulaEmpanada.jpg';
 import img20 from '../img/pratos/frangoTeriyaki.jpg';
