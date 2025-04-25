@@ -170,7 +170,7 @@ const pratosInfo = [
     link: '/loja/Yakitori/Compra/Delivery/Loja/Oficial' // Link para a página do Yakitori
   },
   {
-    nome:'Lula empanada/Compra/Delivery/Loja/Oficial',
+    nome:'Lula Empanada',
     imagem: img19,
     descricao: 'Lula empanada é lula cortada em anéis, revestida com uma camada crocante e frita.',
     ingredientes: 'Anéis de lula, farinha de trigo, ovo , temperos (sal, pimenta, páprica, limão)',
