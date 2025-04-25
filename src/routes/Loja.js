@@ -151,7 +151,7 @@ const pratosInfo = [
     descricao: 'Macarrão japonês frito com camarão, lula, polvo e legumes, ao molho especial.',
     ingredientes: 'Macarrão para yakisoba, camarão, lula, polvo, repolho, cenoura, brócolis, cebola, molho yakisoba.',
     preco: 'R$ 13,50',
-    link: '' // Link para a página do Yakisoba de Frutos do Mar
+    link: '/loja/YakisobaFrutosDoMar' // Link para a página do Yakisoba de Frutos do Mar
   },
   {
     nome: 'Hossomaki',

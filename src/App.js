@@ -29,6 +29,7 @@ import Sunomomo from './shop/sunomono.js'
 import TemakiSalmao from './shop/temakiSalmao.js'
 import Tempura from './shop/tempura.js'
 import Yakisoba from './shop/yakisoba.js'
+import YakisobaFrutosDoMar from './shop/yaksobaFrutosDoMar.js'
 
 function App() {
     return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/loja/TemakiSalmao" element={<TemakiSalmao />} />
         <Route path="/loja/Tempura" element={<Tempura />} />
         <Route path="/loja/Yakisoba" element={<Yakisoba />} />
+        <Route path="/loja/YakisobaFrutosDoMar" element={<YakisobaFrutosDoMar />} />
 
 
 </Routes>
