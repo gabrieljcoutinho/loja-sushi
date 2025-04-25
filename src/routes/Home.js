@@ -78,6 +78,8 @@ const Home = () => {
         <a href="/menu" className="button secondary">Menu Completo</a>
       </section>
 
+
+
       <section id="experiencia" className="experience-section">
         <div className="experience-content">
           <h2 className="section-title">{experiencia}</h2>
@@ -89,6 +91,7 @@ const Home = () => {
           <img src={ambientacaoRestaurante} alt="Ambiente Aconchegante do Sushi" />
         </div>
       </section>
+
 
       <section id="promocoes" className="promotions-section">
         <h2 className="section-title">{promocao}</h2>
