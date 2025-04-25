@@ -1,0 +1,159 @@
+/* Estilos gerais para o container do produto */
+
+.produto-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Layout em grade para melhor organização */
+    gap: 20px;
+    padding: 30px;
+    margin: 30px auto; /* Centraliza o container na tela */
+    max-width: 900px; /* Largura máxima para evitar que o conteúdo se estique demais */
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais suave e moderna */
+    transition: transform 0.2s ease-in-out; /* Pequena animação ao passar o mouse */
+    height: 100% auto;
+  }
+
+  .produto-container:hover {
+    transform: scale(1.02); /* Efeito de leve aumento ao passar o mouse */
+  }
+
+  /* Estilos para a imagem do produto */
+  .produto-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a borda arredondada funcione */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .produto-imagem img {
+    display: block; /* Remove espaço extra abaixo da imagem */
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-out; /* Efeito de zoom suave na imagem */
+  }
+
+  .produto-container:hover .produto-imagem img {
+    transform: scale(1.05);
+  }
+
+  /* Estilos para a seção de detalhes do produto */
+  .produto-detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaçamento entre os elementos internos */
+  }
+
+  /* Estilos para o título do produto */
+  .produto-titulo {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #2c3e50; /* Cor de texto mais elegante */
+    font-weight: 600; /* Deixa o título mais destacado */
+  }
+
+  /* Estilos para a descrição do produto */
+  .produto-descricao {
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para a seção de preço e botão de compra */
+  .produto-preco-e-compra {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre preço e botão */
+    margin-bottom: 25px;
+  }
+
+  /* Estilos para o preço do produto */
+  .produto-preco {
+    font-size: 1.5em;
+    font-weight: 700; /* Preço mais proeminente */
+    color: #e67e22; /* Laranja vibrante para o preço */
+  }
+
+  /* Estilos para o botão de comprar */
+  .produto-botao-comprar {
+    background-color: #27ae60; /* Verde mais moderno */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .produto-botao-comprar:hover {
+    background-color: #219653;
+  }
+
+  .produto-botao-comprar:active {
+    transform: scale(0.98); /* Feedback visual ao clicar */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Estilos para as opções (como quantidade) */
+  .produto-opcoes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .produto-opcoes label {
+    margin-right: 15px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .produto-input-quantidade {
+    width: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .produto-input-quantidade:focus {
+    outline: none;
+    border-color: #e67e22; /* Destaque ao focar */
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.3);
+  }
+
+  /* Estilos para a lista de informações adicionais */
+  .produto-informacoes-adicionais {
+    list-style: none; /* Remove os marcadores padrão */
+    padding-left: 0;
+    color: #777;
+  }
+
+  .produto-informacoes-adicionais li::before {
+    content: "•"; /* Adiciona um marcador personalizado */
+    color: #e67e22;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .produto-informacoes-adicionais li {
+    margin-bottom: 8px;
+  }
+
+  /* Media query para telas menores (layout em coluna) */
+  @media (max-width: 768px) {
+    .produto-container {
+      grid-template-columns: 1fr; /* Uma coluna em telas menores */
+      margin: 20px;
+      padding: 20px;
+    }
+
+    .produto-imagem {
+      margin-bottom: 20px;
+    }
+  }
