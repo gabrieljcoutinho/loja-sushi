@@ -6,7 +6,6 @@
   justify-content: space-between;
   padding-left: 5rem;
   padding-right: 5rem;
-
 }
 
 .flexbox .produto {
@@ -15,6 +14,7 @@
   display: flex;
   flex-direction: column; /* Organiza os itens internos na vertical */
   background-color: darkred;
+  padding-bottom: 2rem;
 }
 
 .flexbox img {
@@ -106,7 +106,7 @@
   font-size: 20px;
   padding-right: 1rem;
   padding-top: 5px;
-  
+
 }
 
 .ingredientes {

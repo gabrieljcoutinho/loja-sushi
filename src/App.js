@@ -22,6 +22,10 @@ import Kare from './shop/kare.js'
 import Lamen from './shop/lamen.js'
 import Missoshiru from './shop/missoshiru.js'
 import NiguiriCamarao from './shop/niguiriCamarao.js'
+import Salmao from './shop/salmao.js'
+import SashimiPeixeBranco from './shop/sashimiPeixeBranco.js'
+import Shimeji from './shop/shimeji.js'
+import Sunomomo from './shop/sunomono.js'
 
 function App() {
     return (
@@ -47,6 +51,10 @@ function App() {
         <Route path="/loja/lamen" element={<Lamen />} />
         <Route path="/loja/missoshiru" element={<Missoshiru />} />
         <Route path="/loja/niguiriCamarao" element={<NiguiriCamarao />} />
+        <Route path="/loja/salmao" element={<Salmao />} />
+        <Route path="/loja/sashimiPeixeBranco" element={<SashimiPeixeBranco />} />
+        <Route path="/loja/Shimeji" element={<Shimeji />} />
+        <Route path="/loja/Sunomomo" element={<Sunomomo />} />
 
 </Routes>
 
