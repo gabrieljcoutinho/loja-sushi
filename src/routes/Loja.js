@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../CSS/Loja/loja.css';
 import '../CSS/Loja/barraDePesquisa.css';
 
-// Importações das imagens
+// Importações das imagens (mantenha essas)
 import img1 from '../img/pratos/RolinhoPrimaveradeQueijo.jpg';
 import img2 from '../img/pratos/ceviche.jpg';
 import img3 from '../img/pratos/gyozajpg.jpg';
@@ -189,9 +189,18 @@ const pratosInfo = [
 
 const Loja = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [animatingButton, setAnimatingButton] = useState(null);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
+  };
+
+  const handleBuyClick = (link, index) => {
+    setAnimatingButton(index);
+    setTimeout(() => {
+      setAnimatingButton(null);
+      window.location.href = link; // Redireciona após a animação (opcional)
+    }, 300); // Tempo da animação em milissegundos
   };
 
   const pratosFiltrados = pratosInfo.filter((prato) =>
@@ -222,13 +231,14 @@ const Loja = () => {
               <br /><br /><br /><br /><br />
               <p className='preco'>{prato.preco}</p>
               <br /><br />
-              <a
+              <button
                 href={prato.link}
-                className='btnComprar'
+                className={`btnComprar ${animatingButton === index ? 'animate' : ''}`}
                 title='Clicar'
+                onClick={() => handleBuyClick(prato.link, index)}
               >
                 <span>Comprar</span><i></i>
-              </a>
+              </button>
             </div>
           ))
         ) : (

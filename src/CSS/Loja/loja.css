@@ -42,6 +42,10 @@
   transition: 1.5s;
 }
 
+.flexbox div button:hover{
+  cursor: pointer;
+}
+
 .loja-container {
   padding-bottom: 5rem;
   min-height: 140rem;
