@@ -1,65 +1,70 @@
+/* barraDePesquisa.css */
 .search-bar {
   display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #252525;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin: 1.5rem auto;
+  max-width: 400px;
+}
+
+.search-bar:focus-within {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.search-icon-container {
+  display: flex;
   justify-content: center;
-  align-items: center; /* Centraliza os itens verticalmente também, útil se adicionar um botão */
-  padding: 1.5rem 2rem; /* Reduzi um pouco o padding superior e inferior */
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #eee;
-  font-style: italic;
-  padding-top: 5rem;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  color: #252525;
+  font-size: 16px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.search-icon {
+  color: #252525;
+  font-size: 16px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .search-bar input[type="text"] {
-  padding: 0.8rem 1rem; /* Ajustei o padding interno para um visual um pouco mais compacto */
-  border: 1px solid #ccc;
-  border-radius: 6px; /* Arredondamento um pouco menor, mais moderno */
-  font-size: 1rem;
-  width: 80%;
-  max-width: 600px;
-  box-sizing: border-box;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave para o foco */
-  font-style: italic;
-}
-
-.search-bar input[type="text"]:focus {
-  outline: none;
-  border-color: #dc3545; /* Vermelho mais consistente com a paleta de cores */
-  box-shadow: 0 0 8px rgba(220, 53, 69, 0.3); /* Sombra mais suave e com a cor de foco */
-  font-style: italic;
-}
-
-/* Opcional: Estilo para um possível botão de busca */
-.search-bar button {
-  background-color: #dc3545;
-  color: white;
   border: none;
-  padding: 0.8rem 1.2rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-left: 0.5rem; /* Espaçamento entre o input e o botão */
-  transition: background-color 0.3s ease;
-  font-style: italic;
-}
-
-.search-bar button:hover {
-  background-color: #c82333; /* Tom mais escuro ao passar o mouse */
-  font-style: italic;
-}
-
-.search-bar button:focus {
+  padding: 10px 20px;
+  font-size: 16px;
+  flex-grow: 1;
   outline: none;
-  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+  background-color: transparent;
+  color: white;
+  transition: padding-left 0.2s ease-in-out, margin-right 0.2s ease-in-out;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #cccccc;
   font-style: italic;
 }
 
+.search-bar:focus-within input[type="text"] {
+  padding-left: 25px;
+  margin-right: 5px;
+}
 
-/* Em barraDePesquisa.css ou loja.css */
 .mensagem-nao-encontrado {
-  color: red; /* Exemplo de cor vermelha */
-  font-style: italic; /* Deixa a mensagem em itálico */
-  margin-top: 13rem; /* Adiciona um espaçamento acima da mensagem */
-padding-left: 30rem;
-  font-size: 50px;
+  color: red;
   font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  width: 100%;
 }

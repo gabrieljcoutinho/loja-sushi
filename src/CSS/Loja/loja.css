@@ -1,3 +1,4 @@
+/* loja.css (mantive o restante dos seus estilos) */
 .flexbox {
   padding-top: 5rem;
   display: flex;
@@ -12,7 +13,7 @@
   width: 350px;
   margin: 15px;
   display: flex;
-  flex-direction: column; /* Organiza os itens internos na vertical */
+  flex-direction: column;
   background-color: darkred;
   padding-bottom: 2rem;
 }
@@ -30,14 +31,13 @@
   margin: 15px;
   height: 501px;
   display: flex;
-  flex-direction: column; /* Garante que os elementos internos continuem em coluna */
+  flex-direction: column;
   border-radius: 15px 15px 15px 15px;
   transition: 1.5s;
 }
 
 .flexbox div:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
+  -webkit-ms-transform: scale(1.05);
   transform: scale(1.05);
   transition: 1.5s;
 }
@@ -65,7 +65,7 @@
   padding: 8px 12px;
   transition: 0.3s ease-in-out;
   overflow: hidden;
-  margin-top: auto; /* Empurra o botão para a parte inferior */
+  margin-top: auto;
 }
 
 .btnComprar:hover {
