@@ -52,26 +52,28 @@ function App() {
         <Route path="/Menu" element={<Menu />} /> {/* Rota para qualquer URL não correspondente */}
 
         {/*Links shop */}
-        <Route path="/loja/rolinhoPrimavera/Compra/Delivery/Loja/Oficial" element={<RolinhoPrimavera />} />
-        <Route path="/loja/ceviche/Compra/Delivery/Loja/Oficial" element={<Ceviche />} />
-        <Route path="/loja/guioza/Compra/Delivery/Loja/Oficial" element={<Guioza />} />
-        <Route path="/loja/hotRoll/Compra/Delivery/Loja/Oficial" element={<HotRollPage />} />
-        <Route path="/loja/kare/Compra/Delivery/Loja/Oficial" element={<Kare />} />
-        <Route path="/loja/lamen/Compra/Delivery/Loja/Oficial" element={<Lamen />} />
-        <Route path="/loja/missoshiru/Compra/Delivery/Loja/Oficial" element={<Missoshiru />} />
-        <Route path="/loja/niguiriCamarao/Compra/Delivery/Loja/Oficial" element={<NiguiriCamarao />} />
-        <Route path="/loja/salmao/Compra/Delivery/Loja/Oficial" element={<Salmao />} />
-        <Route path="/loja/sashimiPeixeBranco/Compra/Delivery/Loja/Oficial" element={<SashimiPeixeBranco />} />
-        <Route path="/loja/Shimeji/Compra/Delivery/Loja/Oficial" element={<Shimeji />} />
-        <Route path="/loja/Sunomomo/Compra/Delivery/Loja/Oficial" element={<Sunomomo />} />
-        <Route path="/loja/TemakiSalmao/Compra/Delivery/Loja/Oficial" element={<TemakiSalmao />} />
-        <Route path="/loja/Tempura/Compra/Delivery/Loja/Oficial" element={<Tempura />} />
-        <Route path="/loja/Yakisoba/Compra/Delivery/Loja/Oficial" element={<Yakisoba />} />
-        <Route path="/loja/YakisobaFrutosDoMar/Compra/Delivery/Loja/Oficial" element={<YakisobaFrutosDoMar />} />
-        <Route path="/loja/Hossomaki/Compra/Delivery/Loja/Oficial" element={<Hossomaki />} />
-        <Route path="/loja/Yakitori/Compra/Delivery/Loja/Oficial" element={<Yakitori />} />
-        <Route path="/loja/LulaEmpanada/Compra/Delivery/Loja/Oficial" element={<LulaEmpanada />} />
-        <Route path="/loja/Teriaki/Compra/Delivery/Loja/Oficial" element={<Teriaki />} />
+        <Route path="/https://loja/rolinhoPrimavera/Compra/Delivery/Loja/Oficial" element={<RolinhoPrimavera />} />
+        <Route path="/https://loja/ceviche/Compra/Delivery/Loja/Oficial" element={<Ceviche />} />
+        <Route path="/https://loja/guioza/Compra/Delivery/Loja/Oficial" element={<Guioza />} />
+        <Route path="/https://loja/hotRoll/Compra/Delivery/Loja/Oficial" element={<HotRollPage />} />
+        <Route path="/https://loja/kare/Compra/Delivery/Loja/Oficial" element={<Kare />} />
+        <Route path="/https://loja/lamen/Compra/Delivery/Loja/Oficial" element={<Lamen />} />
+        <Route path="/https://loja/missoshiru/Compra/Delivery/Loja/Oficial" element={<Missoshiru />} />
+        <Route path="/https://loja/niguiriCamarao/Compra/Delivery/Loja/Oficial" element={<NiguiriCamarao />} />
+        <Route path="/https://loja/salmao/Compra/Delivery/Loja/Oficial" element={<Salmao />} />
+        <Route path="/https://loja/sashimiPeixeBranco/Compra/Delivery/Loja/Oficial" element={<SashimiPeixeBranco />} />
+        <Route path="/https://loja/Shimeji/Compra/Delivery/Loja/Oficial" element={<Shimeji />} />
+        <Route path="/https://loja/Sunomomo/Compra/Delivery/Loja/Oficial" element={<Sunomomo />} />
+        <Route path="/https://loja/TemakiSalmao/Compra/Delivery/Loja/Oficial" element={<TemakiSalmao />} />
+        <Route path="/https://loja/Tempura/Compra/Delivery/Loja/Oficial" element={<Tempura />} />
+        <Route path="/https://loja/Yakisoba/Compra/Delivery/Loja/Oficial" element={<Yakisoba />} />
+        <Route path="/https://loja/YakisobaFrutosDoMar/Compra/Delivery/Loja/Oficial" element={<YakisobaFrutosDoMar />} />
+        <Route path="/https://loja/Hossomaki/Compra/Delivery/Loja/Oficial" element={<Hossomaki />} />
+        <Route path="/https://loja/Yakitori/Compra/Delivery/Loja/Oficial" element={<Yakitori />} />
+        <Route path="/https://loja/LulaEmpanada/Compra/Delivery/Loja/Oficial" element={<LulaEmpanada />} />
+        <Route path="/https://loja/Teriaki/Compra/Delivery/Loja/Oficial" element={<Teriaki />} />
+
+
 
 
 
