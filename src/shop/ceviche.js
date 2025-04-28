@@ -51,6 +51,7 @@ const CevicheDelicioso = () => {
           <li>Servido frio, ideal para os dias quentes.</li>
         </ul>
       </div>
+
     </div>
   );
 };
