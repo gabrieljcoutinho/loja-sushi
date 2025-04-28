@@ -64,7 +64,7 @@ function App() {
         <Route path="/loja/sashimiPeixeBranco/Compra/Delivery/Loja/Oficial" element={<SashimiPeixeBranco />} />
         <Route path="/loja/Shimeji/Compra/Delivery/Loja/Oficial" element={<Shimeji />} />
         <Route path="/loja/Sunomomo/Compra/Delivery/Loja/Oficial" element={<Sunomomo />} />
-        <Route path="/loja/TemakiSalmaov" element={<TemakiSalmao />} />
+        <Route path="/loja/TemakiSalmao/Compra/Delivery/Loja/Oficial" element={<TemakiSalmao />} />
         <Route path="/loja/Tempura/Compra/Delivery/Loja/Oficial" element={<Tempura />} />
         <Route path="/loja/Yakisoba/Compra/Delivery/Loja/Oficial" element={<Yakisoba />} />
         <Route path="/loja/YakisobaFrutosDoMar/Compra/Delivery/Loja/Oficial" element={<YakisobaFrutosDoMar />} />

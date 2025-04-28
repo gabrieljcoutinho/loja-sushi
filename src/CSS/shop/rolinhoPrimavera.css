@@ -155,3 +155,59 @@
       margin-bottom: 20px;
     }
   }
+
+  /* ... seus estilos existentes ... */
+
+.produto-senha {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.produto-senha label {
+  margin-right: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.produto-input-senha {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.produto-input-senha:focus {
+  outline: none;
+  border-color: #e67e22;
+  box-shadow: 0 0 5px rgba(230, 126, 34, 0.3);
+}
+
+.produto-botao-confirmar {
+  background-color: #3498db; /* Azul para confirmar */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.produto-botao-confirmar:hover {
+  background-color: #2980b9;
+}
+
+.produto-botao-comprar {
+  /* ... seus estilos anteriores ... */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição para a cor de fundo e a cor do texto */
+}
+
+.produto-botao-comprar.comprado {
+  background-color: #3498db;
+  color: white;
+  cursor: not-allowed;
+}
