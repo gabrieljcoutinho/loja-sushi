@@ -67,4 +67,16 @@
   align-items: center;
   margin-top: 10rem;
   width: 100%;
+  animation: pulse 1.5s infinite alternate; /* Adicionando a animação */
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
 }
