@@ -45,11 +45,82 @@ function App() {
 
     <Routes>
       {/*Links header */}
+
+
+
+{/* Modos de escrever Home no localhost */}
         <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/Hom3" element={<Home />} />
+        <Route path="/hom3" element={<Home />} />
+        <Route path="/H0me" element={<Home />} />
+        <Route path="/h0me" element={<Home />} />
+        <Route path="/H0m3" element={<Home />} />
+        <Route path="/h0m3" element={<Home />} />
+{/* Modos de escrever Home no localhost */}
+
+
+
+{/* Modos de escrever Loja no host */}
         <Route path="/Loja" element={<Loja />} />
+        <Route path="/loja" element={<Loja />} />
+        <Route path="/L0ja" element={<Loja />} />
+        <Route path="/l0ja" element={<Loja />} />
+
+{/* Modos de escrever Loja no localhost*/}
+
+
+{/* Modos de escrever rodizio no localhost */}
+        <Route path="/rodizio" element={<Loja />} />
+        <Route path="/Rodizio" element={<Loja />} />
+        <Route path="/rodízio" element={<Loja />} />
+        <Route path="/Rodízio" element={<Loja />} />
+        <Route path="/r0dizio" element={<Loja />} />
+        <Route path="/R0dizio" element={<Loja />} />
+        <Route path="/r0dízio" element={<Loja />} />
+        <Route path="/R0dízio" element={<Loja />} />
+        <Route path="/rodizi0" element={<Loja />} />
+        <Route path="/Rodizi0" element={<Loja />} />
+        <Route path="/rodízi0" element={<Loja />} />
+        <Route path="/Rodízi0" element={<Loja />} />
+        <Route path="/r0dizi0" element={<Loja />} />
+        <Route path="/R0dizi0" element={<Loja />} />
+        <Route path="/r0dízi0" element={<Loja />} />
+        <Route path="/R0dízi0" element={<Loja />} />
+ {/* Modos de escrever rodizio no localhost */}
+
+
+{/* Modos de escrever Not found no local host */}
         <Route path="*" element={<NotFound />} />
+        <Route path="notFound" element={<NotFound />} />
+        <Route path="NotFound" element={<NotFound />} />
+        <Route path="notfound" element={<NotFound />} />
+        <Route path="Notfound" element={<NotFound />} />
+{/* Modos de escrever Not found no local host */}
+
+
+{/*Modos de escrever Resrva no localhost */}
         <Route path="/Reserva" element={<Reserva />} />
+        <Route path="/reserva" element={<Reserva />} />
+        <Route path="/Reservar" element={<Reserva />} />
+        <Route path="/reservar" element={<Reserva />} />
+{/*Modos de escrever Resrva no localhost */}
+
+
+{/*Modos de escrever menu no local host */}
         <Route path="/Menu" element={<Menu />} />
+        <Route path="/menu" element={<Menu />} />
+{/*Modos de escrever menu no local host */}
+
+
+{/*Modos de escrever Cardapio no localhost */}
+        <Route path="/Cardapio" element={<Menu />} />
+        <Route path="/cardapio" element={<Menu />} />
+        <Route path="/Cardápio" element={<Menu />} />
+        <Route path="/cardápio" element={<Menu />} />
+{/*Modos de escrever Cardapio no localhost */}
+
 
         {/*Links shop */}
         <Route path="/https://loja/rolinhoPrimavera/Compra/Delivery/Loja/Oficial.com.br" element={<RolinhoPrimavera />} />
