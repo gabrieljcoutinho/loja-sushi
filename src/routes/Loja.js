@@ -230,7 +230,7 @@ const Loja = () => {
               {prato.ingredientes && <p className='ingredientes'>Ingredientes: {prato.ingredientes}</p>}
               <br /><br /><br /><br /><br />
               <p className='preco'>{prato.preco}</p>
-              <br /><br />
+
               <button
                 href={prato.link}
                 className={`btnComprar ${animatingButton === index ? 'animate' : ''}`}
