@@ -1,22 +1,4 @@
-.navigation {
-  position: relative; /* Importante para posicionar o fundo animado */
-}
-
-.nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Para alinhar os itens horizontalmente */
-}
-
-.nav-item {
-  margin-right: 20px; /* Espaçamento entre os itens */
-}
-
-.nav-item:last-child {
-  margin-right: 0;
-}
-
+/* CSS/Header/links.css */
 .navigation a {
   color: #ddd;
   text-decoration: none;
@@ -48,8 +30,8 @@
   background-color: #fff; /* Cor de fundo desejada para o link ativo */
   border-radius: 5px;
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
               top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   z-index: 0; /* Coloca o fundo atrás do texto */
 }

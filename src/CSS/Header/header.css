@@ -1,14 +1,19 @@
+/* CSS/Header/header.css */
 .header-container {
   background-color: #252525;
   color: #f8f8f8;
   padding: 1rem 2rem;
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada */
   display: flex;
-  justify-content: flex-end; /* Alinha a navegação à direita */
+  justify-content: space-between; /* Espaço entre a logo e a navegação */
   align-items: center;
   width: 97%;
   z-index: 100;
+}
 
+.header-logo {
+  max-height: 50px; /* Ajuste a altura conforme necessário */
+  margin-right: 20px; /* Espaçamento entre a logo e a navegação */
 }
 
 .navigation ul {

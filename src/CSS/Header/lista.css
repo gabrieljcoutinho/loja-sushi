@@ -1,3 +1,4 @@
+/* CSS/Header/lista.css */
 .navigation {
   position: relative; /* Importante para posicionar o fundo animado */
 }
@@ -16,15 +17,3 @@
 .nav-item:last-child {
   margin-right: 0;
 }
-
-.navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 30px;
-  }
-
-  .navigation li {
-    margin: 0;
-  }

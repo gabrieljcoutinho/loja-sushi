@@ -3,33 +3,31 @@ import { Link, useLocation } from 'react-router-dom';
 import '../CSS/Header/header.css';
 import '../CSS/Header/lista.css';
 import '../CSS/Header/links.css';
-
+import logoImage from '../img/iconeDaPagina.png'; // Importe sua imagem aqui
 
 const Header = () => {
   const location = useLocation();
-  // Mantemos o activeLink, mas agora ele será atualizado diretamente pelo location.pathname
   const [activeLink, setActiveLink] = useState(location.pathname);
   const navListRef = useRef(null);
   const activeBgRef = useRef(null);
 
   useEffect(() => {
-    // Atualiza o activeLink sempre que a localização mudar
     setActiveLink(location.pathname);
-  }, [location.pathname]); // Dependência no location.pathname
+  }, [location.pathname]);
 
   useEffect(() => {
     const updateBackground = () => {
       updateActiveBackgroundPosition(activeLink);
     };
 
-    updateBackground(); // Chama na montagem inicial e quando activeLink mudar
+    updateBackground();
 
     window.addEventListener('resize', updateBackground);
 
     return () => {
       window.removeEventListener('resize', updateBackground);
     };
-  }, [activeLink]); // Dependência no activeLink para atualizar a posição do background
+  }, [activeLink]);
 
   const handleLinkClick = (path) => {
     setActiveLink(path);
@@ -61,9 +59,10 @@ const Header = () => {
 
   return (
     <header className="header-container">
+      <img src={logoImage} alt="Logo do Site"  title='Logo do Site' className="header-logo" />
       <nav className="navigation">
         <ul className="nav-list" ref={navListRef}>
-          <div ref={activeBgRef} className="active-background"></div>
+          <div ref={activeBgRef} className="active-background" ></div>
 
           <li className="nav-item">
             <Link to="/" className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => handleLinkClick('/')} title='Clicar'  >
