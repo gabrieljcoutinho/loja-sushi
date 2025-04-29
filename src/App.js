@@ -46,10 +46,10 @@ function App() {
     <Routes>
       {/*Links header */}
         <Route path="/" element={<Home />} />
-        <Route path="/Loja/" element={<Loja />} />
-        <Route path="*" element={<NotFound />} /> {/* Rota para qualquer URL não correspondente */}
-        <Route path="/Reserva" element={<Reserva />} /> {/* Rota para qualquer URL não correspondente */}
-        <Route path="/Menu" element={<Menu />} /> {/* Rota para qualquer URL não correspondente */}
+        <Route path="/Loja" element={<Loja />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/Reserva" element={<Reserva />} />
+        <Route path="/Menu" element={<Menu />} />
 
         {/*Links shop */}
         <Route path="/https://loja/rolinhoPrimavera/Compra/Delivery/Loja/Oficial.com.br" element={<RolinhoPrimavera />} />
