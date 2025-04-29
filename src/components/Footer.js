@@ -1,7 +1,8 @@
 import React from 'react';
-import '../CSS/Footer/footer.css'; // Mantenha o arquivo CSS para os estilos
-import '../CSS/Footer/footerMethods.css'
-import '../CSS/Footer/footerContent.css'
+import { Link } from 'react-router-dom';
+import '../CSS/Footer/footer.css';
+import '../CSS/Footer/footerMethods.css';
+import '../CSS/Footer/footerContent.css';
 
 const Footer = () => {
   return (
@@ -25,11 +26,11 @@ const Footer = () => {
         <div className="footer-social">
           <h3>Siga-nos</h3>
           <div className="social-icons">
-            <a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <Link to="/instagram" target="_blank" rel="noopener noreferrer">Instagram</Link>
             <br /><br />
-            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <Link to="/facebook" target="_blank" rel="noopener noreferrer">Facebook</Link>
             <br /><br />
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <Link to="/linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
           </div>
         </div>
       </div>
