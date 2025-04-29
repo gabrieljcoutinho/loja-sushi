@@ -8,6 +8,7 @@
   justify-content: space-between; /* Espaço entre a logo e a navegação */
   align-items: center;
   width: 97%;
+  height: 15px;
   z-index: 100;
 }
 
