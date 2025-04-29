@@ -1,0 +1,22 @@
+/* Em ../CSS/Footer/footer.css */
+.footer-logo {
+    height: 50px; /* Defina a altura desejada */
+    margin-right: 15px; /* Adicione uma margem à direita para separação */
+    vertical-align: middle; /* Alinhe verticalmente com o texto */
+  }
+
+  .footer-bottom {
+    display: flex; /* Para alinhar o logo e o texto na mesma linha */
+    align-items: center; /* Alinha verticalmente os itens dentro do footer-bottom */
+    justify-content: center; /* Centraliza os itens horizontalmente (ajuste conforme necessário) */
+    padding: 10px;
+    background-color: #f0f0f0; /* Exemplo de cor de fundo */
+  }
+
+  .footer-bottom .copy {
+    margin: 0; /* Remova margens padrão do parágrafo */
+  }
+
+  .footer-bottom .payment-methods {
+    margin-left: 20px; /* Adiciona espaço entre o copyright e os métodos de pagamento */
+  }
