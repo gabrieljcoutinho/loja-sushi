@@ -47,7 +47,6 @@ function App() {
       {/*Links header */}
 
 
-
 {/* Modos de escrever Home no localhost */}
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
