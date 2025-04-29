@@ -1,0 +1,209 @@
+.instagram-container {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: var(--white); /* Usando variável */
+    border: 1px solid var(--border-color); /* Usando variável */
+    border-radius: 3px;
+    padding-bottom: 20px;
+  }
+
+  .instagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color); /* Usando variável */
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .restaurant-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+  }
+
+  .restaurant-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .restaurant-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: var(--text-primary); /* Usando variável */
+  }
+
+  .restaurant-location {
+    font-size: 12px;
+    color: var(--text-secondary); /* Usando variável */
+  }
+
+  .header-right .follow-button {
+    background-color: var(--primary-button-color); /* Usando variável */
+    color: var(--white); /* Usando variável */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color); /* Usando variável */
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-number {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: var(--text-primary); /* Usando variável */
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-secondary); /* Usando variável */
+  }
+
+  .highlight-reel {
+    display: flex;
+    padding: 16px;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--border-color); /* Usando variável */
+  }
+
+  .highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+  }
+
+  .highlight-story {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--highlight-border); /* Usando variável */
+    margin-bottom: 8px;
+    background-color: var(--highlight-background); /* Usando variável */
+  }
+
+  .highlight-title {
+    font-size: 12px;
+    color: var(--text-primary); /* Usando variável */
+    text-align: center;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-color); /* Usando variável */
+  }
+
+  .tab {
+    border: none;
+    background: none;
+    padding: 12px 0;
+    margin: 0 20px;
+    font-size: 14px;
+    color: var(--text-secondary); /* Usando variável */
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .tab.active {
+    color: var(--text-primary); /* Usando variável */
+    border-bottom: 1px solid var(--text-primary); /* Usando variável */
+  }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+  }
+
+  .post {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1/1; /* Mantém os posts quadrados */
+  }
+
+  .post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .post-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .post:hover .post-overlay {
+    opacity: 1;
+  }
+
+  .overlay-icons {
+    display: flex;
+    gap: 20px;
+    color: var(--white); /* Usando variável */
+    font-size: 16px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon::before {
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .icon:first-child::before {
+    /* Ícone de coração */
+    content: '❤️';
+  }
+
+  .icon:last-child::before {
+    /* Ícone de balão de comentário */
+    content: '💬';
+  }
+
+  /* Definição das variáveis CSS */
+  :root {
+    --primary-button-color: #0095f6;
+    --white: #fff;
+    --border-color: #e6e6e6;
+    --text-primary: #262626;
+    --text-secondary: #999;
+    --highlight-border: #c7c7c7;
+    --highlight-background: #f0f0f0;
+  }
