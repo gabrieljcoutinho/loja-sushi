@@ -67,6 +67,10 @@ function App() {
         <Route path="/loja" element={<Loja />} />
         <Route path="/L0ja" element={<Loja />} />
         <Route path="/l0ja" element={<Loja />} />
+        <Route path="/Lojas" element={<Loja />} />
+        <Route path="/lojas" element={<Loja />} />
+        <Route path="/L0jas" element={<Loja />} />
+        <Route path="/l0jas" element={<Loja />} />
 
 {/* Modos de escrever Loja no localhost*/}
 
