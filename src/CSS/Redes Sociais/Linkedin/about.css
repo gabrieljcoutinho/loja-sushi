@@ -1,0 +1,54 @@
+
+.about-section-bonito,
+.highlights-section,
+.reviews-section,
+.footer-bonito {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  max-width: 960px;
+}
+
+.about-section-bonito h2,
+.highlights-section h2,
+.reviews-section h2 {
+  font-size: 24px;
+  color: #2d3748;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #e0e6ed;
+  padding-bottom: 15px;
+}
+
+.about-content-bonito {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.about-text-bonito {
+  flex: 2;
+}
+
+.about-text-bonito p {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-image-bonito {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about-image-bonito img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

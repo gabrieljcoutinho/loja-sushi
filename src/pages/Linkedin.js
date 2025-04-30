@@ -1,11 +1,16 @@
 import React from 'react';
+
 import '../CSS/Redes Sociais/Linkedin/linkedin.css'; // Novo arquivo CSS
+import '../CSS/Redes Sociais/Linkedin/banner.css'
+import '../CSS/Redes Sociais/Linkedin/profile.css'
+import '../CSS/Redes Sociais/Linkedin/follow.css'
+import '../CSS/Redes Sociais/Linkedin/about.css'
+import '../CSS/Redes Sociais/Linkedin/highlight.css'
+
 
 import iconeDaPagina from '../img/iconeDaPagina.png'
 import banner from '../img/ImgLinkedin/banner.jpg'
-
 import destaque1 from '../img/ImgLinkedin/ambiente1.jpg'
-
 import destaque2 from '../img/ImgLinkedin/imagemEntrada.jpg'
 import destaque3 from '../img/ImgLinkedin/reserva.jpg'
 import destaque4 from '../img/ImgLinkedin/sashimiPremium.jpg'

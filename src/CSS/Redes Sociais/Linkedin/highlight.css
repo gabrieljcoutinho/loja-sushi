@@ -1,0 +1,33 @@
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .highlight-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .highlight-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .highlight-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d3748;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+
+  .highlight-item p {
+    font-size: 14px;
+    color: #4a5568;
+    padding: 0 15px 15px;
+    margin-bottom: 0;
+  }
