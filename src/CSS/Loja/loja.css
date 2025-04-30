@@ -1,50 +1,5 @@
 /* loja.css (mantive o restante dos seus estilos) */
-.flexbox {
-  padding-top: 5rem;
-  display: flex;
-  flex-flow: row wrap;
-  margin-bottom: 15px;
-  justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
 
-.flexbox .produto {
-  width: 350px;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  background-color: darkred;
-  padding-bottom: 2rem;
-}
-
-.flexbox img {
-  width: 350px;
-  display: block;
-  height: 200px;
-  border-radius: 5px 5px 0 0;
-}
-
-.flexbox div {
-  background-color: darkred;
-  width: 350px;
-  margin: 15px;
-  height: 501px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px 15px 15px 15px;
-  transition: 1.5s;
-}
-
-.flexbox div:hover {
-  -webkit-ms-transform: scale(1.05);
-  transform: scale(1.05);
-  transition: 1.5s;
-}
-
-.flexbox div button:hover{
-  cursor: pointer;
-}
 
 .loja-container {
   padding-bottom: 5rem;
