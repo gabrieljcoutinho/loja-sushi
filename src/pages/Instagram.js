@@ -1,5 +1,16 @@
 import React from 'react';
+
+
+
 import '../CSS/Redes Sociais/Instagram/instagram.css';
+import '../CSS/Redes Sociais/Instagram/icone.css';
+import '../CSS/Redes Sociais/Instagram/post.css'
+import  '../CSS/Redes Sociais/Instagram/tabs.css'
+import '../CSS/Redes Sociais/Instagram/restaurante.css'
+import '../CSS/Redes Sociais/Instagram/stat.css'
+import '../CSS/Redes Sociais/Instagram/highlight.css'
+
+
 import restaurantLogo from '../img/iconeDaPagina.png';
 import ambiente1 from '../img/ImgInstagram/ambiente1.jpg';
 import ambiente2 from '../img/ImgInstagram/ambiente2.jpg';

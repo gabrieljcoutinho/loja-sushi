@@ -1,0 +1,22 @@
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-color); /* Usando variável */
+  }
+
+  .tab {
+    border: none;
+    background: none;
+    padding: 12px 0;
+    margin: 0 20px;
+    font-size: 14px;
+    color: var(--text-secondary); /* Usando variável */
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .tab.active {
+    color: var(--text-primary); /* Usando variável */
+    border-bottom: 1px solid var(--text-primary); /* Usando variável */
+  }

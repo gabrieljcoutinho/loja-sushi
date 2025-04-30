@@ -1,0 +1,28 @@
+.icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon::before {
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .icon:first-child::before {
+    /* Ícone de coração */
+    content: '❤️';
+  }
+
+  .icon:last-child::before {
+    /* Ícone de balão de comentário */
+    content: '💬';
+  }
+
+
+  .overlay-icons {
+    display: flex;
+    gap: 20px;
+    color: var(--white); /* Usando variável */
+    font-size: 16px;
+  }
