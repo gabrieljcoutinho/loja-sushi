@@ -18,7 +18,6 @@
 
 .navigation a.active {
   color: #252525; /* Cor do texto quando ativo */
-  /* background-color: #fff; Vamos controlar isso pelo active-background */
   font-weight: bold; /* Opcional: manter o texto em negrito */
 }
 
