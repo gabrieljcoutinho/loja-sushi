@@ -27,11 +27,11 @@ const Footer = () => {
           <h3>Siga-nos</h3>
           <div className="social-icons">
             {/* Você pode adicionar um link para o Instagram aqui */}
-            <a href="/Instagram">Instagram</a>
+            <a href="/https://Instagram-loja-de-sushi.com.br">Instagram</a>
             <br /><br />
-            <a href="/Facebook" rel="noopener noreferrer">Facebook</a>
+            <a href="/https://Facebook-loja-de-sushi.com.br" rel="noopener noreferrer">Facebook</a>
             <br /><br />
-            <a href="/Linkedin" rel="noopener noreferrer">LinkedIn</a>
+            <a href="/https://Linkedin-loja-de-sushi.com.br" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>

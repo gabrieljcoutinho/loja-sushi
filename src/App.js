@@ -152,9 +152,9 @@ function App() {
         <Route path="/https://loja/Teriaki/Compra/Delivery/Loja/Oficial.com.br" element={<Teriaki />} />
 
 
-        <Route path="/Instagram" element={< Instagram />} />
-        <Route path="/Facebook" element={< Facebook/>} />
-        <Route path="/Linkedin" element={< Linkedin/>} />
+        <Route path="/https://Instagram-loja-de-sushi.com.br" element={< Instagram />} />
+        <Route path="/https://Facebook-loja-de-sushi.com.br" element={< Facebook/>} />
+        <Route path="/https://Linkedin-loja-de-sushi.com.br" element={< Linkedin/>} />
 
 
 </Routes>
