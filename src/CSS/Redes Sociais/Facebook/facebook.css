@@ -29,18 +29,6 @@
     align-items: center;
   }
 
-  .restaurant-logo {
-    width: 2.5em;
-    height: 2.5em;
-    margin-right: 0.625em;
-    object-fit: contain;
-  }
-
-  .restaurant-name {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-  }
 
   .header-right button {
     background-color: #e7f3ff;
@@ -80,30 +68,6 @@
     left: 1.25em;
     display: flex;
     align-items: flex-end;
-  }
-
-  .profile-image {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    border: 0.25em solid #fff;
-    margin-right: 1.25em;
-    object-fit: cover;
-  }
-
-  .profile-name {
-    font-size: 1.75em;
-    font-weight: bold;
-    color: #fff;
-    margin: 0 0 0.3125em 0;
-    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
-  }
-
-  .profile-details {
-    font-size: 1em;
-    color: #eee;
-    margin: 0;
-    text-shadow: 0.0625em 0.0625em 0.125em rgba(0, 0, 0, 0.5);
   }
 
   .facebook-nav {
@@ -156,126 +120,6 @@
     gap: 0.9375em;
   }
 
-  .create-post {
-    background-color: #fff;
-    border-radius: 0.5em;
-    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.1);
-    padding: 0.9375em;
-    display: flex;
-    gap: 0.625em;
-    align-items: center;
-  }
-
-  .create-post .user-image {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  .create-post .post-input {
-    flex-grow: 1;
-    border: 0.0625em solid #ddd;
-    border-radius: 1.25em;
-    padding: 0.625em 0.9375em;
-    font-size: 1em;
-    outline: none;
-  }
-
-  .create-post .post-button {
-    background-color: #1877f2;
-    color: #fff;
-    border: none;
-    border-radius: 0.3125em;
-    padding: 0.625em 0.9375em;
-    font-size: 1em;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .create-post .post-button:hover {
-    background-color: #1459c2;
-  }
-
-  .post {
-    background-color: #fff;
-    border-radius: 0.5em;
-    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.1);
-    padding: 0.9375em;
-  }
-
-  .post-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.625em;
-  }
-
-  .post-header .user-image {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 0.625em;
-  }
-
-  .post-header .post-info {
-    flex-grow: 1;
-  }
-
-  .post-header .user-name {
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0;
-  }
-
-  .post-header .post-time {
-    font-size: 0.75em;
-    color: #65676b;
-    margin: 0;
-  }
-
-  .post-content {
-    margin-bottom: 0.625em;
-  }
-
-  .post-content p {
-    font-size: 1em;
-    line-height: 1.4;
-    margin-bottom: 0.625em;
-  }
-
-  .post-content .post-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 0.5em;
-  }
-
-  .post-actions {
-    display: flex;
-    gap: 0.9375em;
-    padding: 0.625em 0;
-    border-top: 0.0625em solid #ddd;
-    border-bottom: 0.0625em solid #ddd;
-  }
-
-  .post-actions .action-button {
-    border: none;
-    background: none;
-    color: #65676b;
-    font-size: 0.875em;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 0.5em 0;
-    flex-grow: 1;
-    text-align: center;
-    transition: color 0.3s ease;
-  }
-
-  .post-actions .action-button:hover {
-    color: #1877f2;
-  }
 
   .comments-section {
     padding-top: 0.625em;

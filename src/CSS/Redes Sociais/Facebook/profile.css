@@ -1,0 +1,24 @@
+
+.profile-image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 0.25em solid #fff;
+    margin-right: 1.25em;
+    object-fit: cover;
+  }
+
+  .profile-name {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 0.3125em 0;
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+  }
+
+  .profile-details {
+    font-size: 1em;
+    color: #eee;
+    margin: 0;
+    text-shadow: 0.0625em 0.0625em 0.125em rgba(0, 0, 0, 0.5);
+  }

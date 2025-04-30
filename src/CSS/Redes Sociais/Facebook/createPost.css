@@ -1,0 +1,42 @@
+
+.create-post {
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.1);
+    padding: 0.9375em;
+    display: flex;
+    gap: 0.625em;
+    align-items: center;
+  }
+
+  .create-post .user-image {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .create-post .post-input {
+    flex-grow: 1;
+    border: 0.0625em solid #ddd;
+    border-radius: 1.25em;
+    padding: 0.625em 0.9375em;
+    font-size: 1em;
+    outline: none;
+  }
+
+  .create-post .post-button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125em;
+    padding: 0.625em 0.9375em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .create-post .post-button:hover {
+    background-color: #1459c2;
+  }

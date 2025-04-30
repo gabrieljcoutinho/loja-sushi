@@ -1,5 +1,11 @@
 import React from 'react';
 import '../CSS/Redes Sociais/Facebook/facebook.css';
+
+import '../CSS/Redes Sociais/Facebook/restaurante.css'
+import '../CSS/Redes Sociais/Facebook/profile.css'
+import  '../CSS/Redes Sociais/Facebook/createPost.css'
+import '../CSS/Redes Sociais/Facebook/post.css'
+
 import profileImage from '../img/ImgFacebook/profile.jpg'; // Substitua pela imagem de perfil do restaurante
 
 import coverImage from '../img/ImgFacebook/post.jpg';     // Substitua pela imagem de capa do restaurante

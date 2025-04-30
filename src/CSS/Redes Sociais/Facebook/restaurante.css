@@ -1,0 +1,12 @@
+.restaurant-logo {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 0.625em;
+    object-fit: contain;
+  }
+
+  .restaurant-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+  }
