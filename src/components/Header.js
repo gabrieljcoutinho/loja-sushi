@@ -71,7 +71,7 @@ const Header = () => {
           </li>
 
           <li className="nav-item">
-            <Link to="/Loja" className={`nav-link ${activeLink === '/Loja' ? 'active' : ''}`} onClick={() => handleLinkClick('/Loja')} title='Clicar' >
+            <Link to="/https://Loja-loja-de-sushi" className={`nav-link ${activeLink === '/Loja' ? 'active' : ''}`} onClick={() => handleLinkClick('/Loja')} title='Clicar' >
               Loja
             </Link>
           </li>

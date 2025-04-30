@@ -66,7 +66,7 @@ function App() {
 
 
 {/* Modos de escrever Loja no host */}
-        <Route path="/Loja" element={<Loja />} />
+        <Route path="/https://Loja-loja-de-sushi" element={<Loja />} />
         <Route path="/loja" element={<Loja />} />
         <Route path="/L0ja" element={<Loja />} />
         <Route path="/l0ja" element={<Loja />} />
