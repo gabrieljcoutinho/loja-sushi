@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../CSS/Loja/loja.css';
 import '../CSS/Loja/barraDePesquisa.css';
 import '../CSS/Loja/flexbox.css'
+import '../CSS/Loja/botao.css'
 
 // Importações das imagens (mantenha essas)
 import img1 from '../img/pratos/RolinhoPrimaveradeQueijo.jpg';
