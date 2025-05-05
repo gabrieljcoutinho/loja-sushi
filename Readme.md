@@ -6,4 +6,4 @@
 
 - Caso o cliente queira ir no restaurante, há a disponibilidade de agendar, sendo nescessário colocar o nome, email, data, horário e quantidade de pessoas;
 
--Ao clicar para comprar, o cliente vai se redirecionado para outra página só com o prato que ela quer ver;
+- Ao clicar para comprar, o cliente vai se redirecionado para outra página só com o prato que ela quer ver;
