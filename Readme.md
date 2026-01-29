@@ -7,3 +7,10 @@
 - Caso o cliente queira ir no restaurante, há a disponibilidade de agendar, sendo nescessário colocar o nome, email, data, horário e quantidade de pessoas;
 
 - Ao clicar para comprar, o cliente vai ser redirecionado para outra página só com o prato que ela quer ver;
+
+
+<img width="1912" height="918" alt="Image" src="https://github.com/user-attachments/assets/8ce23a48-e4c6-448c-8f2e-4e9499272f21" />
+
+<img width="1893" height="908" alt="Image" src="https://github.com/user-attachments/assets/0ec4d659-d725-4528-9493-b25af2711ff3" />
+
+<img width="1918" height="902" alt="Image" src="https://github.com/user-attachments/assets/50c5bbd3-693a-4754-bdd8-53003944912f" />
