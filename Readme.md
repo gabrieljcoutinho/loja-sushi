@@ -1,4 +1,13 @@
-# Projeto Restaurante de sushi
+# Clonagem
+> git clone https://github.com/gabrieljcoutinho/PROJETO_loja-sushi.git
+
+#Instalção nodule_models
+> npm i
+
+# Inicialização
+> npm start
+
+## Projeto Restaurante de sushi
 
 - Criei um site de um resturante e sushi, nele o usuário cose ver a página inicial mostrando o restaurante e falando sobre os pratos princiapais, há a possibilidade do usuário pedir delivery, acessando o cardápio virtual;
 
