@@ -7,16 +7,86 @@
 # Inicialização
 > npm start
 
-## Projeto Restaurante de sushi
+# 🍣 Loja de Sushi Online
 
-- Criei um site de um resturante e sushi, nele o usuário cose ver a página inicial mostrando o restaurante e falando sobre os pratos princiapais, há a possibilidade do usuário pedir delivery, acessando o cardápio virtual;
+Bem-vindo à **Loja de Sushi Online**! Aqui você encontra os melhores sushis da cidade. Nosso objetivo é proporcionar uma experiência deliciosa e prática para todos os amantes da culinária japonesa.
 
-- Na loja, há vários alimentos da culinária japonesa, nesse projeto há um diferencial no qual implementei um mecanismo de busca para filtrar o que o usuário quer, caso não tenha, aparecerá uma "mensagem" de erro;
+---
 
-- Caso o cliente queira ir no restaurante, há a disponibilidade de agendar, sendo nescessário colocar o nome, email, data, horário e quantidade de pessoas;
+## 🏠 Home
 
-- Ao clicar para comprar, o cliente vai ser redirecionado para outra página só com o prato que ela quer ver;
+Na **Home**, você encontra uma bela imagem que mostra a essência da nossa cozinha, acompanhada de uma mensagem de boas-vindas:
 
+> "A comida é oba! Venha experimentar nossos sushis fresquinhos e saborosos!"
+
+---
+
+## 🍱 Pratos Principais
+
+Oferecemos três pratos principais irresistíveis:
+
+| Nome do Prato       | Descrição                               | Preço   |
+|--------------------|-----------------------------------------|---------|
+| Sushi de Salmão     | Fatias frescas de salmão sobre arroz.  | R$ 25  |
+| Temaki de Atum      | Cone crocante recheado com atum fresco.| R$ 18  |
+| Hot Roll            | Sushi frito com cream cheese e salmão. | R$ 30  |
+
+---
+
+## 🛒 Loja
+
+Na nossa **Loja**, você encontra uma variedade de pratos, cada um com nome, descrição, preço e um botão para comprar:
+
+- **Sushi de Salmão** – Fatias frescas de salmão sobre arroz – R$ 25 – `[Comprar]`
+- **Temaki de Atum** – Cone crocante recheado com atum fresco – R$ 18 – `[Comprar]`
+- **Hot Roll** – Sushi frito com cream cheese e salmão – R$ 30 – `[Comprar]`
+- **Sashimi Variado** – Seleção de peixes frescos – R$ 35 – `[Comprar]`
+- **Uramaki de Camarão** – Rolinho invertido com camarão – R$ 28 – `[Comprar]`
+- **Yakimeshi** – Arroz japonês frito com legumes – R$ 20 – `[Comprar]`
+
+> Todos os pratos podem ser adicionados ao carrinho com apenas um clique no botão **Comprar**.
+
+---
+
+## 📅 Reserva
+
+Para reservar uma mesa, preencha nosso formulário simples com seus dados:
+
+**Campos do Formulário:**
+- Nome
+- E-mail
+- Telefone
+- Data da Reserva
+- Número de Pessoas
+
+> Garantimos que sua experiência seja agradável e inesquecível!
+
+---
+
+## 🔗 Links Úteis
+
+- [Loja Online](#)  
+- [Formulário de Reserva](#)  
+
+---
+
+## 🎨 Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📌 Observações
+
+- Layout responsivo para dispositivos móveis e desktop.  
+- Botões de compra interativos.  
+- Formulário de reserva funcional.  
+
+---
+
+Aproveite e delicie-se com o melhor da culinária japonesa! 🍣
 
 <img width="1912" height="918" alt="Image" src="https://github.com/user-attachments/assets/8ce23a48-e4c6-448c-8f2e-4e9499272f21" />
 
